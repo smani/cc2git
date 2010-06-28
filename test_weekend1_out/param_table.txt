@@ -1,0 +1,2893 @@
+
+---
+
+['2009-08-18T11:01:33+02:00', Pilka Dariusz 2710 (pilka_dari.PL_WRO_CC_USR@wros14nx),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '26']
+
+---
+comment: '"caft 3081  {{dlv /pilka_dari_porta_bas_052_maint_dev_wro_porta_bas_052_maint/1}}"'
+creator: Pilka Dariusz 2710 (pilka_dari.PL_WRO_CC_USR@wros14nx)
+datetime: '2009-08-18T11:01:33+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zlomek_porta_bas_052_maint/4,
+  nr: '877727', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/27,
+  nr: '878344', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/pilka_dari_porta_bas_052_maint_dev_wro_porta_bas_052_maint/1,
+  nr: '875552', type: Merge}
+labels: [skawinsk_m_ext, mocek_dari, MOCEK_DARI_PORTA_BAS_052_MAINT_SIB, bielawsk_w,
+  zlomek_kry, langiewi_m]
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '25'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '26', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+---
+
+
+['2009-05-07T14:44:28+02:00', Zatorski Michal 2711 (zatorski_m.PL_WRO_CC_USR@wros15bx),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '25']
+
+---
+comment: '"CAFT 2677  {{dlv /dev_zatorski_m_porta_bas_052_maint/1}}"'
+creator: Zatorski Michal 2711 (zatorski_m.PL_WRO_CC_USR@wros15bx)
+datetime: '2009-05-07T14:44:28+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zlomek_porta_bas_052_maint/3,
+  nr: '834341', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/26,
+  nr: '834514', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_mandziej_z_ext_porta_bas_052_maint/2,
+  nr: '835124', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zarczyns_a_porta_bas_052_maint/4,
+  nr: '835748', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zatorski_m_porta_bas_052_maint/1,
+  nr: '834163', type: Merge}
+labels: [WIECEK_PORTA_MAINT_52_PREINT_15AX, zarczyns_a, pilka_dari, mandziej_z_ext,
+  zatorski_m, borowski_p, kalinows_b]
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '24'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '25', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+---
+
+['2009-04-20T10:04:57+02:00', Mandziejewicz Zbigniew 2685 (mandziej_z_ext.PL_WRO_CC_USR@wros14lx),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '24']
+---
+
+comment: '"CAFT #2754  {{dlv /dev_mandziej_z_ext_porta_bas_052_maint/1}}"'
+creator: Mandziejewicz Zbigniew 2685 (mandziej_z_ext.PL_WRO_CC_USR@wros14lx)
+datetime: '2009-04-20T10:04:57+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zlomek_porta_bas_052_maint/2,
+  nr: '833215', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/25,
+  nr: '833228', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zarczyns_a_porta_bas_052_maint/3,
+  nr: '834145', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_mandziej_z_ext_porta_bas_052_maint/1,
+  nr: '833141', type: Merge}
+labels: [wiecek_paw]
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '23'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '24', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+---
+['2009-03-24T10:08:52+01:00', Zarczynski Aleksander 2753 (zarczyns_a.PL_WRO_CC_USR@wros14px),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '23']
+
+---
+comment: '"CAFT 2828 fixed  {{dlv /dev_zarczyns_a_porta_bas_052_maint/1}}"'
+creator: Zarczynski Aleksander 2753 (zarczyns_a.PL_WRO_CC_USR@wros14px)
+datetime: '2009-03-24T10:08:52+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/24,
+  nr: '832046', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zarczyns_a_porta_bas_052_maint/2,
+  nr: '833093', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zarczyns_a_porta_bas_052_maint/1,
+  nr: '831471', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '22'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '23', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+---
+
+['2009-03-19T11:50:58+01:00', Zlomek Krystian 2782 (zlomek_kry.PL_WRO_CC_USR@wros15ax),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '22']
+
+
+comment: '"mnt=LAN/WLAN clients info corrections  {{dlv /dev_zlomek_porta_bas_052_maint/1}}"'
+creator: Zlomek Krystian 2782 (zlomek_kry.PL_WRO_CC_USR@wros15ax)
+datetime: '2009-03-19T11:50:58+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_zlomek_porta_bas_052_maint/1,
+  nr: '831376', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '21'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '22', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-18T14:18:48+01:00', Langiewicz Marek (wro04122.ClearCaseUsersWROI@wro4122c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '21']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04122  {{dlv /dev_wro04122_porta_bas_052_maint/7}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04122  {{dlv /dev_wro04122_porta_bas_052_maint/8}}\n\
+  \   new ip validation  {{dlv /dev_wro04122_porta_bas_052_maint/9}}\n   new ip validation\
+  \  {{dlv /dev_wro04122_porta_bas_052_maint/10}}\""
+creator: Langiewicz Marek (wro04122.ClearCaseUsersWROI@wro4122c)
+datetime: '2009-02-18T14:18:48+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/23,
+  nr: '829131', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/11,
+  nr: '829730', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro04012_porta_bas_052_maint/20,
+  nr: '829866', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/17,
+  nr: '830128', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/10,
+  nr: '829070', type: Merge}
+labels: [PORTA_BAS_052_MAINT_DEV_WRO_shc0036, PORTA_BAS_052_MAINT_DEV_WRO_04294, PORTA_BAS_052_MAINT_DEV_WRO_01565,
+  PORTA_BAS_052_MAINT_DEV_WRO_shc0012, PORTA_BAS_052_MAINT_DEV_WRO_04012, PORTA_BAS_052_MAINT_DEV_WRO_04122,
+  PORTA_BAS_052_MAINT_DEV_WRO_01662, PORTA_BAS_052_MAINT_DEV_WRO_000]
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '20'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '21', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-18T13:00:00+01:00', Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '20']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/13}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/14}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/15}}\n\
+  \   Validation fix for seperated networks.  {{dlv /dev_wroshc0012_porta_bas_052_maint/16}}\""
+creator: Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c)
+datetime: '2009-02-18T13:00:00+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro04012_porta_bas_052_maint/19,
+  nr: '829033', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/16,
+  nr: '829002', type: Merge}
+labels: [PORTA_BAS_052_MAINT_DEV_WRO_03037]
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '19'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '20', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-17T13:15:13+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '19']
+
+
+comment: '"added copy of wireless mac filtering  {{dlv /wro04030_porta_bas_052_maint/33}}"'
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2009-02-17T13:15:13+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/8,
+  nr: '828834', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/15,
+  nr: '828954', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/33,
+  nr: '828823', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '18'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '19', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-17T10:20:32+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '18']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030  {{dlv /wro04030_porta_bas_052_maint/31}}\n\
+  \   validation correction for frontier changes  {{dlv /wro04030_porta_bas_052_maint/32}}\""
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2009-02-17T10:20:32+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/7,
+  nr: '828811', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/32,
+  nr: '828794', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '17'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '18', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-09T17:25:00+01:00', Langiewicz Marek (wro04122.ClearCaseUsersWROI@wro4122c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '17']
+
+
+comment: ''
+creator: Langiewicz Marek (wro04122.ClearCaseUsersWROI@wro4122c)
+datetime: '2009-02-09T17:25:00+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/14,
+  nr: '827920', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/22,
+  nr: '827932', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/31,
+  nr: '828374', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/6,
+  nr: '827842', type: Merge}
+labels: [PORTA_BAS_052_MAINT_DEV_WRO_04030]
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '16'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '17', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-06T13:40:14+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '16']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030  {{dlv /wro04030_porta_bas_052_maint/29}}\n\
+  \   dhcp fixes for frontier  {{dlv /wro04030_porta_bas_052_maint/30}}\""
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2009-02-06T13:40:14+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/21,
+  nr: '120584', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro04012_porta_bas_052_maint/18,
+  nr: '827741', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/6,
+  nr: '827751', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/30,
+  nr: '120578', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '15'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '16', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-05T18:00:37+01:00', Langiewicz Marek (wro04122.ClearCaseUsersWROI@wro4122c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '15']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04122  {{dlv /dev_wro04122_porta_bas_052_maint/4}}\n\
+  \   corrections for status pages  {{dlv /dev_wro04122_porta_bas_052_maint/5}}\""
+creator: Langiewicz Marek (wro04122.ClearCaseUsersWROI@wro4122c)
+datetime: '2009-02-05T18:00:37+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/20,
+  nr: '120560', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/13,
+  nr: '120575', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/5,
+  nr: '120492', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '14'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '15', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-05T15:14:47+01:00', Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '14']
+
+
+comment: '"Frontier step 2 fixes.  {{dlv /dev_wroshc0012_porta_bas_052_maint/12}}"'
+creator: Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c)
+datetime: '2009-02-05T15:14:47+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/19,
+  nr: '120485', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/12,
+  nr: '120473', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '13'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '14', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-04T17:57:36+01:00', Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '13']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/7}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/8}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/9}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/10}}\n\
+  \   Frontier step 2 changes.  {{dlv /dev_wroshc0012_porta_bas_052_maint/11}}\""
+creator: Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c)
+datetime: '2009-02-04T17:57:36+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/4,
+  nr: '120430', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/29,
+  nr: '120433', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/18,
+  nr: '120450', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/11,
+  nr: '120427', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '12'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '13', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-04T15:45:01+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '12']
+
+
+comment: ''
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2009-02-04T15:45:01+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/10,
+  nr: '120408', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/17,
+  nr: '120416', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/28,
+  nr: '120407', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '11'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '12', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2009-02-04T15:26:22+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '11']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030  {{dlv /wro04030_porta_bas_052_maint/26}}\n\
+  \   frontier change step 1, alpha version (not delivered)  {{dlv /wro04030_porta_bas_052_maint/27}}\""
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2009-02-04T15:26:22+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/9,
+  nr: '120401', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/27,
+  nr: '120390', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '10'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '11', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-12-12T10:37:52+01:00', Langiewicz Marek (wro04122.ClearCaseUsersWROI@wro4122c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '10']
+
+
+comment: "\"caft 2699  {{dlv /dev_wro04122_porta_bas_052_maint/1}}\n   Rebased to\
+  \ PORTA_BAS_052_MAINT_DEV_WRO_04122  {{dlv /dev_wro04122_porta_bas_052_maint/2}}\""
+creator: Langiewicz Marek (wro04122.ClearCaseUsersWROI@wro4122c)
+datetime: '2008-12-12T10:37:52+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/16,
+  nr: '119922', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/dev_wro02419_porta_bas_052_maint/9,
+  nr: '120053', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/8,
+  nr: '120117', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/26,
+  nr: '120199', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro04012_porta_bas_052_maint/17,
+  nr: '120329', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/2,
+  nr: '119886', type: Merge}
+labels: [PORTA_BAS_052_MAINT_DEV_WRO_02419]
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '9'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '10', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-12-09T13:45:19+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '9']
+
+
+comment: '"caft 2718  {{dlv /wro04030_porta_bas_052_maint/25}}"'
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2008-12-09T13:45:19+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wro_porta_bas_052_maint/dev_wro04122_porta_bas_052_maint/2,
+  nr: '119856', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/dev_wro02419_porta_bas_052_maint/8,
+  nr: '119880', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/25,
+  nr: '119803', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '8'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '9', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-11-21T15:22:00+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '8']
+
+
+comment: '"caft 2607 issue 17  {{dlv /wro04030_porta_bas_052_maint/24}}"'
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2008-11-21T15:22:00+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/7,
+  nr: '119611', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/15,
+  nr: '119617', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro04012_porta_bas_052_maint/16,
+  nr: '119674', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/24,
+  nr: '119606', type: Merge}
+labels: [PORTA_BAS_052_MAINT_DEV_WRO_e3727]
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '7'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '8', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-11-20T14:09:57+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '7']
+
+
+comment: "\"caft 2607 issue 15\t  {{dlv /wro04030_porta_bas_052_maint/23}}\""
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2008-11-20T14:09:57+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro04012_porta_bas_052_maint/15,
+  nr: '119544', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/14,
+  nr: '119571', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/23,
+  nr: '119527', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '6'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '7', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-11-18T13:37:32+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '6']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030  {{dlv /wro04030_porta_bas_052_maint/21}}\n\
+  \   caft 2607 issue 17  {{dlv /wro04030_porta_bas_052_maint/22}}\""
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2008-11-18T13:37:32+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/22,
+  nr: '119515', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '5'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '6', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-11-13T13:58:37+01:00', Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '5']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/5}}\n\
+  \   CAFT 2607. Corrections after review.  {{dlv /dev_wroshc0012_porta_bas_052_maint/6}}\""
+creator: Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c)
+datetime: '2008-11-13T13:58:37+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/21,
+  nr: '119479', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro04012_porta_bas_052_maint/14,
+  nr: '119502', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/6,
+  nr: '119469', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '4'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '5', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-10-29T15:15:46+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '4']
+
+
+comment: '"caft 2607 issue 7  {{dlv /wro04030_porta_bas_052_maint/20}}"'
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2008-10-29T15:15:46+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/13,
+  nr: '119268', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/5,
+  nr: '119276', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro04012_porta_bas_052_maint/13,
+  nr: '119318', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/20,
+  nr: '119243', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '3'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '4', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-10-29T11:00:13+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '3']
+
+
+comment: '"caft 2607 issue 5  {{dlv /wro04030_porta_bas_052_maint/19}}"'
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2008-10-29T11:00:13+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/19,
+  nr: '119236', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '2'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '3', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-10-28T16:08:05+01:00', Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '2']
+
+
+comment: "\"CAFT 2607 feature 3.  {{dlv /dev_wroshc0012_porta_bas_052_maint/1}}\n\
+  \   CAFT 2607 features 6 and 11.  {{dlv /dev_wroshc0012_porta_bas_052_maint/2}}\n\
+  \   CAFT 2607 feature 12.  {{dlv /dev_wroshc0012_porta_bas_052_maint/3}}\n   Rebased\
+  \ to PORTA_BAS_052_MAINT_DEV_WRO_shc0012  {{dlv /dev_wroshc0012_porta_bas_052_maint/4}}\""
+creator: Zatorski Michal (wroshc0012.ClearCaseUsersWROI@wroe3634c)
+datetime: '2008-10-28T16:08:05+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/12,
+  nr: '119216', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/19,
+  nr: '119229', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/4,
+  nr: '119195', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '1'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '2', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-10-28T15:42:50+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '1']
+
+
+comment: "\"merge with rel3 (wds scm key)  {{dlv /wro04030_porta_bas_052_maint/1}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_000  {{dlv /wro04030_porta_bas_052_maint/2}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030  {{dlv /wro04030_porta_bas_052_maint/3}}\n\
+  \   caft 2121(CR)  {{dlv /wro04030_porta_bas_052_maint/4}}\n   caft 2121 corrections\
+  \ after review  {{dlv /wro04030_porta_bas_052_maint/5}}\n   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030\
+  \  {{dlv /wro04030_porta_bas_052_maint/6}}\n   caft 2121  {{dlv /wro04030_porta_bas_052_maint/7}}\n\
+  \   caft 2276  {{dlv /wro04030_porta_bas_052_maint/8}}\n   caft 2276  {{dlv /wro04030_porta_bas_052_maint/9}}\n\
+  \   caft 2344  {{dlv /wro04030_porta_bas_052_maint/11}}\n   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030\
+  \  {{dlv /wro04030_porta_bas_052_maint/12}}\n   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030\
+  \  {{dlv /wro04030_porta_bas_052_maint/13}}\n   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030\
+  \  {{dlv /wro04030_porta_bas_052_maint/14}}\n   caft 2121  {{dlv /wro04030_porta_bas_052_maint/15}}\n\
+  \   caft 2121  {{dlv /wro04030_porta_bas_052_maint/16}}\n   caft 2607 issue 1  {{dlv\
+  \ /wro04030_porta_bas_052_maint/17}}\n   caft 2607 issue1  {{dlv /wro04030_porta_bas_052_maint/18}}\""
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2008-10-28T15:42:50+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_wroshc0012_porta_bas_052_maint/4,
+  nr: '119184', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/wro04030_porta_bas_052_maint/18,
+  nr: '119174', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, nr: '0'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '1', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-10-28T13:50:03+01:00', Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, '0']
+
+
+comment: ''
+creator: Pilka Dariusz (wro04030.ClearCaseUsersWROI@wro4030c)
+datetime: '2008-10-28T13:50:03+01:00'
+elementtype: text_file
+predecessor: {branch: /main/porta_bas_052_maint, nr: '11'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint/dev_wro_porta_bas_052_maint, name: param_table.txt,
+  nr: '0', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-09-04T14:07:37+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '11']
+
+
+comment: '"tcom dlv"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-09-04T14:07:37+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_bas_052_maint/dev_kuepers_porta_bas_052_maint/2,
+  nr: '117524', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/23,
+  nr: '117317', type: Merge}
+labels: [PORTA_MAINT_BAS_052_011_313, PORTA_MAINT_BAS_052_011_312, PORTA_MAINT_BAS_052_011_311,
+  PORTA_MAINT_BAS_052_011_310, PORTA_MAINT_BAS_052_011_302, PORTA_MAINT_BAS_052_011_301,
+  PORTA_MAINT_BAS_052_011_300, PORTA_MAINT_BAS_052_011_300_T2, PORTA_MAINT_BAS_052_011_300_T1,
+  PORTA_FRONTIER_BAS_000, PORTA_MAINT_BAS_052_011_200, PORTA_MAINT_BAS_052_011_100,
+  PORTA_MAINT_BAS_052_011, PORTA_MAINT_BAS_052_011_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '10'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '11', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-08-13T11:05:50+02:00', Zlomek Krystian (wro04294.ClearCaseUsersWROI@wroe3549c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '10']
+
+
+comment: '"mnt=Deliver from WRO to BL 52.10.200"'
+creator: Zlomek Krystian (wro04294.ClearCaseUsersWROI@wroe3549c)
+datetime: '2008-08-13T11:05:50+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/22,
+  nr: '115763', type: Merge}
+labels: [PORTA_MAINT_BAS_052_010_501, PORTA_MAINT_BAS_052_010_850, PORTA_MAINT_BAS_052_010_850_T2,
+  PORTA_MAINT_BAS_052_010_850_T1, PORTA_MAINT_BAS_052_010_844, PORTA_MAINT_BAS_052_010_844_T2,
+  PORTA_MAINT_BAS_052_010_844_T1, PORTA_MAINT_BAS_052_010_843, PORTA_MAINT_BAS_052_010_842,
+  PORTA_MAINT_BAS_052_010_842_T2, PORTA_MAINT_BAS_052_010_842_T1, PORTA_MAINT_BAS_052_010_T1,
+  PORTA_MAINT_BAS_052_010_800, PORTA_MAINT_BAS_052_010_700, PORTA_MAINT_BAS_052_010_600,
+  PORTA_MAINT_BAS_052_010_500, PORTA_MAINT_BAS_052_010_400, PORTA_MAINT_BAS_052_010_300,
+  PORTA_MAINT_BAS_052_010_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '9'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '10', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-07-15T12:12:36+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '9']
+
+
+comment: '"fix dlv"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-07-15T12:12:36+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/20,
+  nr: '114849', type: Merge}
+labels: [PORTA_MAINT_BAS_052_010_200, PORTA_MAINT_BAS_052_010_100, PORTA_MAINT_BAS_052_010]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '8'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '9', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-07-14T15:34:36+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '8']
+
+
+comment: "\"=CAFT 2374  {{dlv /dev_wro04294_porta_bas_052_maint/1}}  {{dlv /dev_wro_porta_bas_052_maint/17}}\n\
+  \   caft 2344  {{dlv /wro04030_porta_bas_052_maint/11}}  {{dlv /dev_wro_porta_bas_052_maint/18}}\n\
+  \   GB & PL VoIP providers, GB & NL ISP  {{dlv /dev_wro04012_porta_bas_052_maint/9}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/19}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-07-14T15:34:36+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/19,
+  nr: '114807', type: Merge}
+predecessor: {branch: /main/porta_bas_052_maint, nr: '7'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '8', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-06-30T18:08:31+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '7']
+
+
+comment: "\"caft 2276  {{dlv /wro04030_porta_bas_052_maint/9}}  {{dlv /dev_wro_porta_bas_052_maint/14}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04012  {{dlv /dev_wro04012_porta_bas_052_maint/5}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/15}}\n   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04012\
+  \  {{dlv /dev_wro04012_porta_bas_052_maint/6}}  {{dlv /dev_wro_porta_bas_052_maint/15}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04012  {{dlv /dev_wro04012_porta_bas_052_maint/7}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/15}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-06-30T18:08:31+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/16,
+  nr: '113679', type: Merge}
+labels: [PORTA_MAINT_BAS_052_009, PORTA_MAINT_BAS_052_009_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '6'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '7', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-06-16T16:04:31+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '6']
+
+
+comment: "\"caft 2276  {{dlv /wro04030_porta_bas_052_maint/8}}  {{dlv /dev_wro_porta_bas_052_maint/12}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_e3727  {{dlv /wroe3727_porta_bas_052_maint_dev_wro_porta_bas_052_maint/4}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/13}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-06-16T16:04:31+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/13,
+  nr: '110689', type: Merge}
+labels: [PORTA_MAINT_BAS_052_008, PORTA_MAINT_BAS_052_008_T2, PORTA_MAINT_BAS_052_008_T1,
+  PORTA_MAINT_BAS_052_008_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '5'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '6', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-06-03T17:31:53+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '5']
+
+
+comment: '"2372"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-06-03T17:31:53+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/11,
+  nr: '84969', type: Merge}
+labels: [PORTA_MAINT_BAS_052_007, PORTA_MAINT_BAS_052_007_T1, PORTA_MAINT_BAS_052_007_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '4'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '5', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-05-19T14:40:37+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '4']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_000  {{dlv /dev_wro04012_porta_bas_052_maint/2}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/8}}\n   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04012\
+  \  {{dlv /dev_wro04012_porta_bas_052_maint/3}}  {{dlv /dev_wro_porta_bas_052_maint/8}}\n\
+  \   caft 2213  {{dlv /dev_wro04012_porta_bas_052_maint/4}}  {{dlv /dev_wro_porta_bas_052_maint/8}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_e3727  {{dlv /wroe3727_porta_bas_052_maint_dev_wro_porta_bas_052_maint/2}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/9}}\n   Caft #2236  {{dlv /wroe3727_porta_bas_052_maint_dev_wro_porta_bas_052_maint/3}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/9}}\n   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030\
+  \  {{dlv /wro04030_porta_bas_052_maint/6}}  {{dlv /dev_wro_porta_bas_052_maint/10}}\n\
+  \   caft 2121  {{dlv /wro04030_porta_bas_052_maint/7}}  {{dlv /dev_wro_porta_bas_052_maint/10}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-05-19T14:40:37+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_wimax/deb_brno_porta_wimax_maint_052_import/1,
+  nr: '99302', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/10,
+  nr: '84054', type: Merge}
+labels: [PORTA_MAINT_BAS_052_006_310, PORTA_MAINT_BAS_052_006_300, PORTA_MAINT_BAS_052_006_200,
+  PORTA_MAINT_BAS_052_006_T100, PORTA_MAINT_BAS_052_006, PORTA_MAINT_BAS_052_006_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '3'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '4', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-04-30T11:13:23+02:00', Zlomek Krystian (wroe3549.ClearCaseUsersWROI@wroe3549c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '3']
+
+
+comment: "\"Rebased to PORTA_BAS_052_MAINT_DEV_WRO_000  {{dlv /wro04030_porta_bas_052_maint/2}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/4}}\n   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_04030\
+  \  {{dlv /wro04030_porta_bas_052_maint/3}}  {{dlv /dev_wro_porta_bas_052_maint/4}}\n\
+  \   caft 2121(CR)  {{dlv /wro04030_porta_bas_052_maint/4}}  {{dlv /dev_wro_porta_bas_052_maint/4}}\n\
+  \   CAFT 2161 /rel2  {{dlv /dev_wro02419_porta_bas_052_maint/1}}  {{dlv /dev_wro_porta_bas_052_maint/5}}\n\
+  \   CAFT 2161 /rel2  {{dlv /dev_wro02419_porta_bas_052_maint/2}}  {{dlv /dev_wro_porta_bas_052_maint/5}}\n\
+  \   Rebased to PORTA_BAS_052_MAINT_DEV_WRO_02419  {{dlv /dev_wro02419_porta_bas_052_maint/3}}\
+  \  {{dlv /dev_wro_porta_bas_052_maint/5}}\n   caft 2121 corrections after review\
+  \  {{dlv /wro04030_porta_bas_052_maint/5}}  {{dlv /dev_wro_porta_bas_052_maint/6}}\""
+creator: Zlomek Krystian (wroe3549.ClearCaseUsersWROI@wroe3549c)
+datetime: '2008-04-30T11:13:23+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/7,
+  nr: '82984', type: Merge}
+labels: [PORTA_MAINT_BAS_052_005, PORTA_MAINT_BAS_052_005_T1, PORTA_MAINT_BAS_052_005_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '2'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '3', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-04-21T13:40:43+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '2']
+
+
+comment: '"merge with rel3  {{dlv /dev_wro_porta_bas_052_maint/3}}"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-04-21T13:40:43+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/3,
+  nr: '82119', type: Merge}
+labels: [PORTA_MAINT_BAS_052_004, PORTA_MAINT_BAS_052_004_T1, PORTA_MAINT_BAS_052_004_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '1'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '2', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-04-04T14:12:50+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main/porta_bas_052_maint, '1']
+
+
+comment: "\"caft 2124  {{dlv /dev_wro04012_porta_bas_052_maint/1}}  {{dlv /dev_wro_porta_bas_052_maint/1}}\n\
+  \   merge with rel3 (wds scm key)  {{dlv /wro04030_porta_bas_052_maint/1}}  {{dlv\
+  \ /dev_wro_porta_bas_052_maint/2}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-04-04T14:12:50+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_bas_052_maint_b0rked/2,
+  nr: '78536', type: Merge}
+labels: [PORTA_MAINT_BAS_052_003_100, PORTA_MAINT_BAS_052_003_100_T]
+predecessor: {branch: /main/porta_bas_052_maint, nr: '0'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '1', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-03-31T16:24:05+02:00', '#Funktionskennung (ccalbd_bch.ccusers@bchk4qcc)', /home/langiewi_m/p2_latest/develop/source/siemens/applications/html,
+  param_table.txt, /main/porta_bas_052_maint, '0']
+
+
+comment: ''
+creator: '#Funktionskennung (ccalbd_bch.ccusers@bchk4qcc)'
+datetime: '2008-03-31T16:24:05+02:00'
+elementtype: text_file
+predecessor: {branch: /main, nr: '69'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main/porta_bas_052_maint, name: param_table.txt, nr: '0', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-02-11T10:49:48+01:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '69']
+
+
+comment: '"Deliver /update for CAFT 1933 /rel2"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-02-11T10:49:48+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_wimax/12,
+  nr: '77394', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/71,
+  nr: '74958', type: Merge}
+labels: [PORTA_MAINT_BAS_052_002_001, PORTA_MAINT_BAS_052_002_101, PORTA_MAINT_BAS_052_002_200,
+  PORTA_MAINT_BAS_052_002_200_T, DEV_WRO_IGD_SERVICES_BAS_000.000, PORTA_BAS_053_T2,
+  PORTA_BAS_053_T1, PORTA_BAS_053_T, PORTA_BAS_053, PORTA_PPFORM_BAS_052_003, PORTA_2_0_BAS_052_010,
+  PORTA_2_0_BAS_052_009, PORTA_MAINT_BAS_052_003, PORTA_MAINT_BAS_052_003_T3, PORTA_MAINT_BAS_052_003_T2,
+  PORTA_PPFORM_BAS_052_002, _PORTA_MAINT_BAS_052_003_T1, PORTA_MAINT_BAS_052_002_100,
+  PORTA_MAINT_BAS_052_003_T, PORTA_PPFORM_BAS_052_001, PORTA_PPFORM_BAS_LATEST, PORTA_PPFORM_052_000,
+  PORTA_MAINT_BAS_052_002, PORTA_MAINT_BAS_052_001, PORTA_MAINT_BAS_052_000, PORTA_BAS_052_1,
+  PORTA_BAS_052, PORTA_BAS_052_T2, PORTA_BAS_052_T]
+predecessor: {branch: /main, nr: '68'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '69', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-02-07T14:50:39+01:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '68']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/5}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/6}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/7}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/8}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/9}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/10}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/11}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/12}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/13}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/14}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/15}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/16}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/17}}  {{dlv /dev_wro_porta/70}}\n\
+  \   Rebased to PORTA_DEV_WRO_02419  {{dlv /dev_wro02419_porta/18}}  {{dlv /dev_wro_porta/70}}\n\
+  \   CAFT 1933  {{dlv /dev_wro02419_porta/19}}  {{dlv /dev_wro_porta/70}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-02-07T14:50:39+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/11,
+  nr: '74892', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/70,
+  nr: '74780', type: Merge}
+labels: [PORTA_BAS_052_T1]
+predecessor: {branch: /main, nr: '67'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '68', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-01-28T14:39:01+01:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '67']
+
+
+comment: '"CAFt 1866  {{dlv /dev_wroe3549_porta/20}}  {{dlv /dev_wro_porta/68}}"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-01-28T14:39:01+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_pgw_osgi/4,
+  nr: '73725', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/68,
+  nr: '73055', type: Merge}
+labels: [PORTA_BAS_051_1, PORTA_BAS_051, PORTA_BAS_051_T2, PORTA_BAS_051_T1, PORTA_BAS_051_T]
+predecessor: {branch: /main, nr: '66'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '67', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2008-01-09T11:52:47+01:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '66']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_03037  {{dlv /dev_wro03037_porta/34}}  {{dlv\
+  \ /dev_wro_porta/64}}\n   Porta v2 - CAFT 1624 - Status -> Local Network - wrong\
+  \ number of connected DHCP clients is shown.  {{dlv /dev_wro03037_porta/35}}  {{dlv\
+  \ /dev_wro_porta/64}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2008-01-09T11:52:47+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/9,
+  nr: '72252', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_pgw_osgi/3,
+  nr: '72279', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_wimax/6,
+  nr: '72294', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/64,
+  nr: '71413', type: Merge}
+labels: [PORTA_BAS_050_1_100, PORTA_BAS_050_1, PORTA_BAS_050, PORTA_BAS_050_T]
+predecessor: {branch: /main, nr: '65'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '66', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-12-19T15:06:42+01:00', Szurgot Bartosz (wro03609.ClearCaseUsersWROI@wroe1285c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '65']
+
+
+comment: '"WDS - index for LANDevice  {{dlv /dev_wro_porta/63}}"'
+creator: Szurgot Bartosz (wro03609.ClearCaseUsersWROI@wroe1285c)
+datetime: '2007-12-19T15:06:42+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/63,
+  nr: '70931', type: Merge}
+labels: [PORTA_BAS_050_T2, PORTA_BAS_050_T1]
+predecessor: {branch: /main, nr: '64'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '65', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-12-06T10:47:39+01:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '64']
+
+
+comment: '"Manual delivery"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-12-06T10:47:39+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_pgw_osgi/2,
+  nr: '70871', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/61,
+  nr: '70206', type: Merge}
+labels: [PORTA_2_0_BAS_049.01_008, PORTA_2_0_BAS_049.01_007, PORTA_2_0_BAS_049.01_006,
+  PORTA_2_0_BAS_049.01_005, PORTA_BAS_049_8, PORTA_BAS_049_7, PORTA_2_0_BAS_049.01_004,
+  PORTA_2_0_BAS_049.01_003, PORTA_BAS_049_6, PORTA_BAS_049_5, PORTA_BAS_049_4_100,
+  PORTA_BAS_049_4, PORTA_BAS_049_3, PORTA_BAS_049_2, PORTA_2_0_BAS_049.01_002, PORTA_BAS_049_1,
+  PORTA_BAS_049, PORTA_BAS_049_T2, PORTA_BAS_049_T]
+predecessor: {branch: /main, nr: '63'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '64', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-12-04T16:16:10+01:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '63']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/19}}  {{dlv\
+  \ /dev_wro_porta/58}}\n   Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/20}}\
+  \  {{dlv /dev_wro_porta/58}}\n   CAFT 1684  {{dlv /dev_wro01565_porta/21}}  {{dlv\
+  \ /dev_wro_porta/58}}\n   Rebased to PORTA_DEV_WRO_e3634  {{dlv /dev_wroe3634_porta/2}}\
+  \  {{dlv /dev_wro_porta/59}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-12-04T16:16:10+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/58,
+  nr: '67006', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/59,
+  nr: '67129', type: Merge}
+labels: [PORTA_BAS_049_T1]
+predecessor: {branch: /main, nr: '62'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '63', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-11-19T14:37:34+01:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '62']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/17}}  {{dlv\
+  \ /dev_wro_porta/53}}\n   CAFT 1295 (CR) fixed  {{dlv /dev_wro01565_porta/18}} \
+  \ {{dlv /dev_wro_porta/53}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-11-19T14:37:34+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/8,
+  nr: '66021', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/53,
+  nr: '65356', type: Merge}
+labels: [PORTA_BAS_048_1, PORTA_BAS_048, PORTA_BAS_048_T1, PORTA_BAS_048_T]
+predecessor: {branch: /main, nr: '61'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '62', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-10-31T16:26:47+01:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '61']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_e3549  {{dlv /dev_wroe3549_porta/7}}  {{dlv /dev_wro_porta/52}}\n\
+  \   Fixed CAFT 1449  {{dlv /dev_wroe3549_porta/8}}  {{dlv /dev_wro_porta/52}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-10-31T16:26:47+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/7,
+  nr: '62531', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/52,
+  nr: '61529', type: Merge}
+labels: [PORTA_PPFORM_047_002, PORTA_PPFORM_047_001, PORTA_BAS_047_NEW_BOOTLOADER,
+  PORTA_2_0_BAS_047_001, PORTA_BAS_047, PORTA_BAS_047_T2, PORTA_BAS_047_T1, PORTA_BAS_047_T]
+predecessor: {branch: /main, nr: '60'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '61', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-10-17T11:27:37+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '60']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/7}}  {{dlv /dev_wro_porta/49}}\n\
+  \   Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/8}}  {{dlv /dev_wro_porta/49}}\n\
+  \   Added file element \"advanced_admin_system_delay.html\".  {{dlv /dev_wro01565_porta/9}}\
+  \  {{dlv /dev_wro_porta/49}}\n   Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/10}}\
+  \  {{dlv /dev_wro_porta/49}}\n   Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/11}}\
+  \  {{dlv /dev_wro_porta/49}}\n   Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/12}}\
+  \  {{dlv /dev_wro_porta/49}}\n   Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/13}}\
+  \  {{dlv /dev_wro_porta/49}}\n   Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/14}}\
+  \  {{dlv /dev_wro_porta/49}}\n   Rebased to PORTA_DEV_WRO_01565  {{dlv /dev_wro01565_porta/15}}\
+  \  {{dlv /dev_wro_porta/49}}\n   CAFT 1531  {{dlv /dev_wro01565_porta/16}}  {{dlv\
+  \ /dev_wro_porta/49}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-10-17T11:27:37+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/51,
+  nr: '60410', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/6,
+  nr: '60507', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brq_porta/8,
+  nr: '60577', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/49,
+  nr: '60020', type: Merge}
+labels: [PORTA_PGW_OSGI_BAS_046_002, PORTA_BAS_046_1, PORTA_BAS_046, PORTA_BAS_046_T2,
+  PORTA_BAS_046_T1, PORTA_BAS_046_T]
+predecessor: {branch: /main, nr: '59'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '60', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-10-11T12:12:14+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '59']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_000  {{dlv /dev_wroe3549_porta/3}}  {{dlv /dev_wro_porta/46}}\n\
+  \   Fixed CAFT 120.  {{dlv /dev_wroe3549_porta/4}}  {{dlv /dev_wro_porta/46}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-10-11T12:12:14+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/47,
+  nr: '59267', type: Merge}
+predecessor: {branch: /main, nr: '58'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '59', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-10-03T19:00:18+02:00', Ales Macek (maceka.gs_herkules@localhost.localdomain),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '58']
+
+
+comment: "\"CAFT #1093  {{dlv /dev_brq_porta/5}}\n   CAFT #1268  {{dlv /dev_brq_porta/6}}\n\
+  \   CAFT #1268  {{dlv /dev_brq_porta/7}}\""
+creator: Ales Macek (maceka.gs_herkules@localhost.localdomain)
+datetime: '2007-10-03T19:00:18+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brq_porta/7,
+  nr: '58684', type: Merge}
+predecessor: {branch: /main, nr: '57'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '58', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-10-02T17:02:52+02:00', root.root@localhost.localdomain, /home/langiewi_m/p2_latest/develop/source/siemens/applications/html,
+  param_table.txt, /main, '57']
+
+
+comment: "\"Merge with LATEST.  {{dlv /dev_brq_porta/1}}\n   Merge with LATEST.  {{dlv\
+  \ /dev_brq_porta/2}}\n   adding power_state attribute for status.html  {{dlv /dev_brq_porta/3}}\n\
+  \   CAFT #1365 usb to status.html  {{dlv /dev_brq_porta/4}}\""
+creator: root.root@localhost.localdomain
+datetime: '2007-10-02T17:02:52+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brq_porta/4,
+  nr: '58613', type: Merge}
+predecessor: {branch: /main, nr: '56'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '57', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-09-24T16:41:46+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '56']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_000  {{dlv /dev_wro03251_porta/22}}  {{dlv /dev_wro_porta/42}}\n\
+  \   CAFT 275, 536  {{dlv /dev_wro03251_porta/24}}  {{dlv /dev_wro_porta/42}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-09-24T16:41:46+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brq_porta/2,
+  nr: '57616', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/42,
+  nr: '57389', type: Merge}
+labels: [PORTA_BAS_045_1, PORTA_BAS_045_1_T, PORTA_PGW_OSGI_BAS_045_001, PORTA_PGW_OSGI_BAS_045_001_T,
+  PORTA_BAS_045, PORTA_BAS_045_T2, PORTA_PGW_OSGI_BAS_045_T1_001, PORTA_BAS_045_T1,
+  PORTA_BAS_045_T]
+predecessor: {branch: /main, nr: '55'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '56', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-09-03T09:41:54+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '55']
+
+
+comment: '"caft #970 : added connection enable parameters for home_internet.html  {{dlv
+  /dev_wro_porta/38}}"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-09-03T09:41:54+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brq_porta/1,
+  nr: '56039', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/5,
+  nr: '57012', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/38,
+  nr: '54233', type: Merge}
+labels: [PORTA_WIMAX_BAS_044_000, PORTA_PGW_OSGI_BAS_044_000, PORTA_2_0_BAS_044_000,
+  PORTA_BAS_044, PORTA_BAS_044_T3, PORTA_BAS_044_TX, PORTA_BAS_044_T2, PORTA_BAS_044_T1,
+  PORTA_BAS_044_T]
+predecessor: {branch: /main, nr: '54'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '55', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-08-27T15:37:01+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '54']
+
+
+comment: '"CAFT #1205  {{dlv /dev_wro02419_porta/1}}  {{dlv /dev_wro_porta/37}}"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-08-27T15:37:01+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/37,
+  nr: '53018', type: Merge}
+predecessor: {branch: /main, nr: '53'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '54', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-08-24T16:13:46+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '53']
+
+
+comment: '"Manual deliver (FIT fix)"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-08-24T16:13:46+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/36,
+  nr: '52528', type: Merge}
+labels: [PORTA_PPFORM_BAS_043_2_001, PORTA_BAS_043_2, PORTA_BAS_043_1, PORTA_BAS_043_T]
+predecessor: {branch: /main, nr: '52'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '53', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-08-20T14:59:10+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '52']
+
+
+comment: "\"Rebased to PORTA_DEV_WRO_01662  {{dlv /dev_wro01662_porta/21}}  {{dlv\
+  \ /dev_wro_porta/35}}\n   CAFT fix (#1125 and #928)  {{dlv /dev_wro01662_porta/22}}\
+  \  {{dlv /dev_wro_porta/35}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-08-20T14:59:10+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/35,
+  nr: '51535', type: Merge}
+labels: [PORTA_BAS_043]
+predecessor: {branch: /main, nr: '51'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '52', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-08-13T13:38:39+02:00', Szurgot Bartosz (wro03609.ClearCaseUsersWROI@wroe1285c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '51']
+
+
+comment: "\"CAFT #1081 - WebGui: save 24h reconnection state On, webgui shows Off\
+  \  {{dlv /dev_wro_porta/33}}\n   Rebased to PORTA_DEV_WRO_03037  {{dlv /dev_wro03037_porta/20}}\
+  \  {{dlv /dev_wro_porta/33}}\n   Rebased to PORTA_DEV_WRO_03251  {{dlv /dev_wro03251_porta/20}}\
+  \  {{dlv /dev_wro_porta/34}}\n   CAFT 1095  {{dlv /dev_wro03251_porta/21}}  {{dlv\
+  \ /dev_wro_porta/34}}\""
+creator: Szurgot Bartosz (wro03609.ClearCaseUsersWROI@wroe1285c)
+datetime: '2007-08-13T13:38:39+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/34,
+  nr: '50913', type: Merge}
+labels: [PORTA_BAS_043_T2, PORTA_BAS_043_T1]
+predecessor: {branch: /main, nr: '50'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '51', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-08-01T13:38:55+02:00', Szurgot Bartosz (wro03609.ClearCaseUsersWROI@wroe1285c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '50']
+
+
+comment: '"caft: Porta_Release2 #531 corrected (basing on caft: Porta #2824)  {{dlv
+  /dev_wro01565_porta/6}}  {{dlv /dev_wro_porta/32}}"'
+creator: Szurgot Bartosz (wro03609.ClearCaseUsersWROI@wroe1285c)
+datetime: '2007-08-01T13:38:55+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/4,
+  nr: '49963', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_att2/18,
+  nr: '50652', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/32,
+  nr: '49162', type: Merge}
+labels: [PORTA_BAS_042_1, PORTA_BAS_042, PORTA_BAS_042_T1, PORTA_BAS_042_T]
+predecessor: {branch: /main, nr: '49'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '50', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-07-18T15:32:54+02:00', Tesluk Wojciech (wro03251.ClearCaseUsersWROI@wro3251c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '49']
+
+
+comment: '"FIT correction"'
+creator: Tesluk Wojciech (wro03251.ClearCaseUsersWROI@wro3251c)
+datetime: '2007-07-18T15:32:54+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/3,
+  nr: '48144', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_att2/14,
+  nr: '48735', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/29,
+  nr: '47725', type: Merge}
+labels: [PORTA_BAS_041, PORTA_BAS_041_T2, PORTA_BAS_041_T]
+predecessor: {branch: /main, nr: '48'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '49', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-07-17T15:59:18+02:00', Szurgot Bartosz (wro03609.ClearCaseUsersWROI@wroe1285c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '48']
+
+
+comment: "\"CAFT 916  {{dlv /dev_wro03251_porta/16}}  {{dlv /dev_wro_porta/28}}\n\
+  \   CAFT 953  {{dlv /dev_wro03251_porta/17}}  {{dlv /dev_wro_porta/28}}\""
+creator: Szurgot Bartosz (wro03609.ClearCaseUsersWROI@wroe1285c)
+datetime: '2007-07-17T15:59:18+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/28,
+  nr: '47655', type: Merge}
+labels: [PORTA_BAS_041_T1]
+predecessor: {branch: /main, nr: '47'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '48', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-07-13T15:55:03+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '47']
+
+
+comment: '"First delivery of fixes for CAFT #955. Device listings, status and safe
+  remove is working.  {{dlv /dev_wro01662_porta/17}}  {{dlv /dev_wro_porta/27}}"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-07-13T15:55:03+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/27,
+  nr: '47345', type: Merge}
+predecessor: {branch: /main, nr: '46'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '47', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-06-28T14:35:58+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '46']
+
+
+comment: '"Bugfix delivery"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-06-28T14:35:58+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_att2/8,
+  nr: '46946', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_tdc/2,
+  nr: '46954', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/24,
+  nr: '46189', type: Merge}
+labels: [PORTA_BAS_040, PORTA_BAS_040_T2, PORTA_BAS_040_T]
+predecessor: {branch: /main, nr: '45'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '46', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-06-18T16:36:57+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '45']
+
+
+comment: '"Fix broken delivery"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-06-18T16:36:57+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_att2/4,
+  nr: '44756', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro01662_porta_old_20080714162847/14,
+  nr: '44914', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro03251_porta/12,
+  nr: '44920', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro03037_porta_old_20080626092904/15,
+  nr: '44923', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/21,
+  nr: '44543', type: Merge}
+labels: [PORTA_TDC_BAS_039_000, PORTA_BAS_040_T1, PORTA_BAS_039, PORTA_BAS_039_T]
+predecessor: {branch: /main, nr: '44'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '45', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-06-18T14:20:21+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '44']
+
+
+comment: '"CR : 5 USB devices : added distinction for active USB devices  {{dlv /dev_wro02287_porta/6}}  {{dlv
+  /dev_wro_porta/20}}"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-06-18T14:20:21+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/20,
+  nr: '44428', type: Merge}
+predecessor: {branch: /main, nr: '43'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '44', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-06-18T13:51:25+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '43']
+
+
+comment: '"tmp webserver added to new_firmware  {{dlv /dev_wro03251_porta/9}}  {{dlv
+  /dev_wro_porta/19}}"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-06-18T13:51:25+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/19,
+  nr: '44390', type: Merge}
+predecessor: {branch: /main, nr: '42'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '43', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-06-15T11:40:00+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '42']
+
+
+comment: "\"Error correction  {{dlv /dev_wro_porta/17}}\n   AutoDisconnectTimePeriod\
+  \ name proper  {{dlv /dev_wro_porta/18}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-06-15T11:40:00+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro03037_porta_old_20080626092904/14,
+  nr: '44121', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro01662_porta_old_20080714162847/13,
+  nr: '44124', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro02287_porta/6,
+  nr: '44226', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro03251_porta/10,
+  nr: '44231', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_att2/3,
+  nr: '44336', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/18,
+  nr: '43971', type: Merge}
+labels: [PORTA_BAS_039_T2]
+predecessor: {branch: /main, nr: '41'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '42', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-06-14T16:31:12+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '41']
+
+
+comment: '"FIT corrections  {{dlv /dev_wro_porta/16}}"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-06-14T16:31:12+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/16,
+  nr: '43836', type: Merge}
+predecessor: {branch: /main, nr: '40'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '41', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-06-14T13:30:11+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '40']
+
+
+comment: '"Manual delivery for FIX"'
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-06-14T13:30:11+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/15,
+  nr: '43696', type: Merge}
+predecessor: {branch: /main, nr: '39'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '40', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-06-11T17:04:30+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '39']
+
+
+comment: "\"Merge with USB changes  {{dlv /dev_wro03251_porta/3}}  {{dlv /dev_wro_porta/13}}\n\
+  \   MERGE to baseline 38  {{dlv /dev_wro03251_porta/4}}  {{dlv /dev_wro_porta/13}}\n\
+  \   TICKET 168  {{dlv /dev_wro03251_porta/5}}  {{dlv /dev_wro_porta/13}}\n   rebase\
+  \  {{dlv /dev_wro01662_porta/6}}  {{dlv /dev_wro_porta/14}}\n   First version of\
+  \ Application Webserver CR done  {{dlv /dev_wro01662_porta/7}}  {{dlv /dev_wro_porta/14}}\n\
+  \   AppWebserver fixes  {{dlv /dev_wro01662_porta/8}}  {{dlv /dev_wro_porta/14}}\n\
+  \   AppWebserver in development  {{dlv /dev_wro01662_porta/10}}  {{dlv /dev_wro_porta/14}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-06-11T17:04:30+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro03251_porta/6,
+  nr: '43533', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro03037_porta_old_20080626092904/10,
+  nr: '43720', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/13,
+  nr: '43048', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/14,
+  nr: '43155', type: Merge}
+labels: [PORTA_BAS_039_T1]
+predecessor: {branch: /main, nr: '38'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '39', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-05-14T19:00:18+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '38']
+
+
+comment: "\"WPS CR  {{dlv /dev_wro_porta/8}}\n   WPS CR  {{dlv /dev_wro03037_porta/2}}\
+  \  {{dlv /dev_wro_porta/8}}\n   Conflict merge  {{dlv /dev_wro03037_porta/3}}  {{dlv\
+  \ /dev_wro_porta/8}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-05-14T19:00:18+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro03037_porta_old_20080626092904/7,
+  nr: '41342', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro02287_porta/3,
+  nr: '41445', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/dev_wro01662_porta_old_20080714162847/9,
+  nr: '41464', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro02287_porta_att2/2,
+  nr: '43138', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/8,
+  nr: '40020', type: Merge}
+labels: [PORTA_ATT2_BAS_006, PORTA_ATT2_BAS_006_T2, PORTA_ATT2_BAS_006_T1, PORTA_ATT2_BAS_006_T,
+  PORTA_BAS_038, PORTA_BAS_038_T3, PORTA_BAS_038_T2, PORTA_BAS_038_T1, PORTA_BAS_038_T]
+predecessor: {branch: /main, nr: '37'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '38', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-05-07T10:50:49+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '37']
+
+
+comment: "\"Merge data from old project to new one  {{dlv /dev_wro_porta/1}}\n   CAFT\
+  \ #57 : added last connection error  {{dlv /dev_wro_porta/2}}\n   deliver  {{dlv\
+  \ /dev_wro_porta/4}}\""
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-05-07T10:50:49+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/4,
+  nr: '38654', type: Merge}
+predecessor: {branch: /main, nr: '36'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '37', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-04-16T17:12:15+02:00', Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '36']
+
+
+comment: ''
+creator: Wiecek Pawel (wro02419.ClearCaseUsersWROI@wro2419c)
+datetime: '2007-04-16T17:12:15+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta/3,
+  nr: '37896', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_wro_porta_v2/12,
+  nr: '37683', type: Merge}
+labels: [PORTA_ATT2_BAS_005, PORTA_ATT2_BAS_005_T3, PORTA_ATT2_BAS_005_T2, PORTA_ATT2_BAS_005_T1,
+  PORTA_BAS_037, PORTA_ATT2_BAS_005_T, PORTA_BAS_037_T1, PORTA_BAS_037_T, PORTA_BAS_036,
+  PORTA_BAS_036_T1, PORTA_BAS_036_T]
+predecessor: {branch: /main, nr: '35'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '36', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-04-04T08:34:33+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '35']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2007-04-04T08:34:33+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta_v2/9,
+  nr: '37359', type: Merge}
+predecessor: {branch: /main, nr: '34'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '35', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-04-02T08:43:34+02:00', Michael Bennemann (mbn.ccusers@bchk081x), /home/langiewi_m/p2_latest/develop/source/siemens/applications/html,
+  param_table.txt, /main, '34']
+
+
+comment: ''
+creator: Michael Bennemann (mbn.ccusers@bchk081x)
+datetime: '2007-04-02T08:43:34+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v2/3,
+  nr: '37205', type: Merge}
+labels: [PORTA_BAS_035]
+predecessor: {branch: /main, nr: '33'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '34', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-03-30T12:56:29+02:00', Michael Bennemann (mbn.ccusers@bchk081x), /home/langiewi_m/p2_latest/develop/source/siemens/applications/html,
+  param_table.txt, /main, '33']
+
+
+comment: '"Merge from PORTA_V2_BAS_034_T1"'
+creator: Michael Bennemann (mbn.ccusers@bchk081x)
+datetime: '2007-03-30T12:56:29+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v2/2,
+  nr: '37046', type: Merge}
+predecessor: {branch: /main, nr: '32'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '33', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-03-13T19:05:45+01:00', Ales Holec (holeca.gs_herkules@cml), /home/langiewi_m/p2_latest/develop/source/siemens/applications/html,
+  param_table.txt, /main, '32']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@cml)
+datetime: '2007-03-13T19:05:45+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta_danube/5,
+  nr: '35297', type: Merge}
+labels: [PORTA_W502V_BAS_034_003, PORTA_W502V_BAS_034_003_T2, PORTA_W502V_BAS_034_003_T1,
+  PORTA_MAINT_BAS_034_003, PORTA_MAINT_BAS_034_003_T3, PORTA_MAINT_BAS_034_003_T2,
+  PORTA_MAINT_BAS_034_003_T1, PORTA_W502V_BAS_034_003_T, PORTA_MAINT_BAS_034_003_T,
+  PORTA_MAINT_BAS_034_002, PORTA_W502V_BAS_034_002, PORTA_W502V_BAS_034_002_T, PORTA_MAINT_BAS_034_001,
+  PORTA_ATT2_BAS_004, PORTA_W502V_BAS_034_001, PORTA_MAINT_BAS_034_000, PORTA_BAS_034,
+  PORTA_BAS_034_T4, PORTA_BAS_034_T3, PORTA_BAS_034_T2, PORTA_BAS_034_T1, PORTA_BAS_034_T]
+predecessor: {branch: /main, nr: '31'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '32', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-02-09T17:00:49+01:00', Ales Holec (holeca.gs_herkules@cml), /home/langiewi_m/p2_latest/develop/source/siemens/applications/html,
+  param_table.txt, /main, '31']
+
+
+comment: '"Fix for log page"'
+creator: Ales Holec (holeca.gs_herkules@cml)
+datetime: '2007-02-09T17:00:49+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/128,
+  nr: '26942', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/127,
+  nr: '26939', type: Merge}
+labels: [PORTA_PGW_BAS_007, PORTA_PGW_BAS_006, PORTA_PGW_BAS_006_T, PORTA_PGW_BAS_005,
+  PORTA_PGW_BAS_005_T, PORTA_PGW_BAS_004, PORTA_PGW_BAS_004_T, PORTA_BAS_033_2, PORTA_BAS_033_1,
+  PORTA_V2_BAS_033, PORTA_V2_BAS_033_T1, PORTA_ATT2_BAS_003, PORTA_PGW_BAS_003, PORTA_PGW_BAS_003_T,
+  PORTA_V2_BAS_033_T, PORTA_ATT2_BAS_002, PORTA_W502V_BAS_000, PORTA_BAS_033, PORTA_BAS_033_T2,
+  PORTA_V2_BAS_032_T, PORTA_BAS_033_T1, PORTA_BAS_033_T, PORTA_PGW_BAS_002, PORTA_BAS_032_1,
+  PORTA_ATT2_BAS_001, PORTA_PGW_BAS_002_T, PORTA_BAS_032_1_T, PORTA_V2_BAS_001_T,
+  PORTA_ATT2_BAS_000, PORTA_V2_BAS_000, PORTA_BAS_032, PORTA_BAS_032_T]
+predecessor: {branch: /main, nr: '30'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '31', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-01-23T10:23:58+01:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '30']
+
+
+comment: '"Merge from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2007-01-23T10:23:58+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/125,
+  nr: '22484', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta_v1_maint/1,
+  nr: '22462', type: Merge}
+labels: [PORTA_BAS_032_T1, PORTA_BAS_031, PORTA_BAS_031_T2, PORTA_BAS_031_T, PORTA_DANUBE_BAS_013,
+  PORTA_BAS_031_T1, PORTA_DANUBE_BAS_013_T, PORTA_DANUBE_BAS_013_T2, PORTA_DANUBE_BAS_013_T1,
+  PORTA_BAS_030, PORTA_BAS_030_T3, PORTA_BAS_030_T]
+predecessor: {branch: /main, nr: '29'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '30', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-01-18T11:34:48+01:00', Libor Svehlak (svehlakl.gs_herkules@cz2cba7c_linux),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '29']
+
+
+comment: '"Merge"'
+creator: Libor Svehlak (svehlakl.gs_herkules@cz2cba7c_linux)
+datetime: '2007-01-18T11:34:48+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/122,
+  nr: '22449', type: Merge}
+labels: [PORTA_BAS_030_T2]
+predecessor: {branch: /main, nr: '28'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '29', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2007-01-16T15:43:37+01:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '28']
+
+
+comment: ''
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2007-01-16T15:43:37+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/121,
+  nr: '22315', type: Merge}
+labels: [PORTA_BAS_030_T1]
+predecessor: {branch: /main, nr: '27'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '28', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-12-12T18:12:34+01:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '27']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-12-12T18:12:34+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/35,
+  nr: '17985', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta_thus/9,
+  nr: '18095', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v2_pre/6,
+  nr: '19685', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/113,
+  nr: '17847', type: Merge}
+labels: [PORTA_PGW_BAS_001, PORTA_ATT_BAS_001, PORTA_PGW_BAS_000, PORTA_DANUBE_BAS_012,
+  PORTA_DANUBE_BAS_012_T2, PORTA_V1_MAINT_BAS_029_1_T2, PORTA_DANUBE_BAS_012_T1, PORTA_DANUBE_BAS_012_T,
+  PORTA_V1_MAINT_BAS_029_1_T1, prj, PORTA_ATT_BAS_000, PORTA_DANUBE_BAS_011_1, PORTA_DANUBE_BAS_011,
+  PORTA_DANUBE_BAS_011_T1, PORTA_DANUBE_BAS_011_T, PORTA_V1_MAINT_BAS_029_0, PORTA_DANUBE_BAS_010,
+  PORTA_BAS_029, PORTA_BAS_029_T3, PORTA_BAS_029_T2, PORTA_BAS_029_T1, PORTA_BAS_029_T]
+predecessor: {branch: /main, nr: '26'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '27', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-11-29T08:10:04+01:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '26']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-11-29T08:10:04+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta_thus/1,
+  nr: '14363', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v1_kpn/7,
+  nr: '14600', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v2_pre/5,
+  nr: '16251', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/32,
+  nr: '14100', type: Merge}
+labels: [PORTA_DANUBE_BAS_009, PORTA_DANUBE_BAS_009_T, PORTA_DANUBE_BAS_008, PORTA_DANUBE_BAS_007,
+  PORTA_DANUBE_BAS_007_T1, PORTA_DANUBE_BAS_007_T, PORTA_V1_THUS_BAS_000, PORTA_BAS_028,
+  PORTA_BAS_028_T3, PORTA_BAS_028_T2, PORTA_BAS_028_T]
+predecessor: {branch: /main, nr: '25'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '26', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-11-27T19:39:40+01:00', Petr Sebesta (snoop.gs_herkules@localhost.localdomain),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '25']
+
+
+comment: '"Merge 28"'
+creator: Petr Sebesta (snoop.gs_herkules@localhost.localdomain)
+datetime: '2006-11-27T19:39:40+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/109,
+  nr: '13983', type: Merge}
+labels: [PORTA_BAS_028_T1]
+predecessor: {branch: /main, nr: '24'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '25', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-11-27T17:40:05+01:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '24']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-11-27T17:40:05+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/108,
+  nr: '13869', type: Merge}
+predecessor: {branch: /main, nr: '23'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '24', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-11-13T12:10:39+01:00', Petr Sebesta (snoop.gs_herkules@localhost.localdomain),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '23']
+
+
+comment: "\"bl27fix\n   \""
+creator: Petr Sebesta (snoop.gs_herkules@localhost.localdomain)
+datetime: '2006-11-13T12:10:39+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/100,
+  nr: '12206', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v2_pre/4,
+  nr: '12423', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/31,
+  nr: '12090', type: Merge}
+labels: [PORTA_DANUBE_BAS_006, PORTA_DANUBE_BAS_006_T2, PORTA_DANUBE_BAS_006_T1, PORTA_DANUBE_BAS_006_T,
+  PORTA_DANUBE_BAS_005, PORTA_DANUBE_BAS_005_T6, PORTA_DANUBE_BAS_005_T, PORTA_DANUBE_BAS_005_T5,
+  PORTA_DANUBE_BAS_005_T4, PORTA_DANUBE_BAS_005_T3, PORTA_DANUBE_BAS_005_T2, PORTA_BAS_027,
+  PORTA_BAS_027_T6, PORTA_BAS_027_T5, PORTA_BAS_027_T]
+predecessor: {branch: /main, nr: '22'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '23', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-11-07T09:20:38+01:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '22']
+
+
+comment: ''
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-11-07T09:20:38+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/29,
+  nr: '11987', type: Merge}
+labels: [PORTA_DANUBE_BAS_005_T1, PORTA_BAS_027_T4, PORTA_BAS_027_T3, PORTA_BAS_027_T2,
+  PORTA_BAS_027_T1]
+predecessor: {branch: /main, nr: '21'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '22', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-11-06T17:39:46+01:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '21']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-11-06T17:39:46+01:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/93,
+  nr: '11069', type: Merge}
+predecessor: {branch: /main, nr: '20'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '21', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-10-26T09:45:02+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '20']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-10-26T09:45:02+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v1_kpn/6,
+  nr: '9527', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v2_pre/3,
+  nr: '10247', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/26,
+  nr: '8983', type: Merge}
+labels: [PORTA_BAS_026, PORTA_BAS_026_T3, PORTA_BAS_026_T]
+predecessor: {branch: /main, nr: '19'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '20', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-10-20T16:50:08+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '19']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-10-20T16:50:08+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/25,
+  nr: '8932', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/82,
+  nr: '8682', type: Merge}
+labels: [PORTA_BAS_026_T2, PORTA_BAS_026_T1]
+predecessor: {branch: /main, nr: '18'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '19', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-10-05T20:17:08+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '18']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-10-05T20:17:08+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/65,
+  nr: '7954', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v1_kpn/5,
+  nr: '8311', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/23,
+  nr: '7926', type: Merge}
+labels: [PORTA_TIH_BAS_025, PORTA_TIH_BAS_025_T, PORTA_BAS_025_2, PORTA_BAS_025_1,
+  PORTA_BAS_025, PORTA_BAS_025_T3, PORTA_BAS_025_T]
+predecessor: {branch: /main, nr: '17'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '18', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-10-05T17:45:15+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '17']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-10-05T17:45:15+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/22,
+  nr: '7917', type: Merge}
+predecessor: {branch: /main, nr: '16'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '17', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-10-04T13:58:51+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '16']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-10-04T13:58:51+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/21,
+  nr: '7885', type: Merge}
+labels: [PORTA_BAS_025_T2, PORTA_BAS_025_T1]
+predecessor: {branch: /main, nr: '15'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '16', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-10-03T21:05:43+02:00', Petr Sebesta (snoop.gs_herkules@localhost.localdomain),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '15']
+
+
+comment: '"Merge"'
+creator: Petr Sebesta (snoop.gs_herkules@localhost.localdomain)
+datetime: '2006-10-03T21:05:43+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/19,
+  nr: '7864', type: Merge}
+predecessor: {branch: /main, nr: '14'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '15', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-10-03T19:15:06+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '14']
+
+
+comment: '"Merged from BRNO_PORTA_BAS_025_FREEZE"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-10-03T19:15:06+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/63,
+  nr: '7737', type: Merge}
+predecessor: {branch: /main, nr: '13'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '14', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-09-21T07:31:13+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '13']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-09-21T07:31:13+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v1_kpn/3,
+  nr: '7092', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/50,
+  nr: '7548', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/16,
+  nr: '6828', type: Merge}
+labels: [PORTA_DANUBE_BAS_004, PORTA_DANUBE_BAS_004_T2, PORTA_DANUBE_BAS_004_T1, PORTA_DANUBE_BAS_004_T0,
+  PORTA_DANUBE_BAS_003_SYNC_001, PORTA_DANUBE_BAS_003, PORTA_DANUBE_BAS_002, PORTA_DANUBE_BAS_001,
+  PORTA_DANUBE_BAS_000, PORTA_BAS_024_T3, PORTA_BAS_024, PORTA_BAS_024_T]
+predecessor: {branch: /main, nr: '12'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '13', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-09-18T17:10:22+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '12']
+
+
+comment: '"Merged from BRNO_PORTA_BAS_024_T1"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-09-18T17:10:22+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/15,
+  nr: '6793', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/45,
+  nr: '6614', type: Merge}
+labels: [PORTA_BAS_024_T2, PORTA_BAS_024_T1]
+predecessor: {branch: /main, nr: '11'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '12', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-09-07T10:00:32+02:00', Libor Svehlak (svehlakl.gs_herkules@cz2cba7c_linux),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '11']
+
+
+comment: '"Merge"'
+creator: Libor Svehlak (svehlakl.gs_herkules@cz2cba7c_linux)
+datetime: '2006-09-07T10:00:32+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/36,
+  nr: '6403', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/14,
+  nr: '6388', type: Merge}
+labels: [PORTA_TIH_BAS_023, PORTA_TIH_BAS_023_T, PORTA_BAS_023, PORTA_BAS_023_T2,
+  PORTA_BAS_023_T]
+predecessor: {branch: /main, nr: '10'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '11', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-09-04T16:29:45+02:00', Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '10']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@leonardo.brqhe.anfdata.cz)
+datetime: '2006-09-04T16:29:45+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/13,
+  nr: '6351', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/34,
+  nr: '6168', type: Merge}
+labels: [PORTA_BAS_023_T1]
+predecessor: {branch: /main, nr: '9'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '10', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-08-22T16:30:37+02:00', Ales Holec (holeca.gs_herkules@localhost.localdomain),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '9']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@localhost.localdomain)
+datetime: '2006-08-22T16:30:37+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/26,
+  nr: '2915', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v1_kpn/2,
+  nr: '4267', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v2_pre/2,
+  nr: '5823', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/9,
+  nr: '2876', type: Merge}
+labels: [PORTA_BAS_022, PORTA_BAS_022_T3, PORTA_BAS_022_T2, PORTA_BAS_022_T]
+predecessor: {branch: /main, nr: '8'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '9', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-08-21T16:20:11+02:00', Ales Holec (holeca.gs_herkules@localhost.localdomain),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '8']
+
+
+comment: '"Merged from Brno"'
+creator: Ales Holec (holeca.gs_herkules@localhost.localdomain)
+datetime: '2006-08-21T16:20:11+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/7,
+  nr: '2844', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/24,
+  nr: '2728', type: Merge}
+labels: [PORTA_BAS_022_T1]
+predecessor: {branch: /main, nr: '7'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '8', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-08-09T12:21:02+02:00', Ales Holec (holeca.gs_herkules@cz2cb8dc), /home/langiewi_m/p2_latest/develop/source/siemens/applications/html,
+  param_table.txt, /main, '7']
+
+
+comment: '"Merged BRNO_PORTA_BAS_021_T2"'
+creator: Ales Holec (holeca.gs_herkules@cz2cb8dc)
+datetime: '2006-08-09T12:21:02+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/19,
+  nr: '1805', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/5,
+  nr: '1748', type: Merge}
+labels: [PORTA_TIH_BAS_021, PORTA_TIH_BAS_021_T, PORTA_BAS_021_1, PORTA_BAS_021, PORTA_BAS_021_T3,
+  PORTA_BAS_021_T2, PORTA_BAS_021_T]
+predecessor: {branch: /main, nr: '6'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '7', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-08-07T17:10:17+02:00', Ales Holec (holeca.gs_herkules@cz2cb8dc), /home/langiewi_m/p2_latest/develop/source/siemens/applications/html,
+  param_table.txt, /main, '6']
+
+
+comment: '"Merged from BRNO_PORTA_BAS_021_FREEZE"'
+creator: Ales Holec (holeca.gs_herkules@cz2cb8dc)
+datetime: '2006-08-07T17:10:17+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/dev_brno_porta_fix/4,
+  nr: '1729', type: Merge}
+- {link: /vobs/porta <- /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/dev_brno_porta/13,
+  nr: '1610', type: Merge}
+labels: [PORTA_BAS_021_T1]
+predecessor: {branch: /main, nr: '5'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '6', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-07-27T10:27:36+02:00', ClearCase Administrator (ccadmin.ccusers@bchk081x),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '5']
+
+
+comment: '"Imported from porta_leo@@/main/LATEST"'
+creator: ClearCase Administrator (ccadmin.ccusers@bchk081x)
+datetime: '2006-07-27T10:27:36+02:00'
+elementtype: text_file
+predecessor: {branch: /main, nr: '4'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '5', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-07-26T14:08:56+02:00', ClearCase Administrator (ccadmin.ccusers@bchk081x),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '4']
+
+
+comment: '"Imported from porta_leo@@/main/PORTA_LEO_MAIN_BAS_020"'
+creator: ClearCase Administrator (ccadmin.ccusers@bchk081x)
+datetime: '2006-07-26T14:08:56+02:00'
+elementtype: text_file
+hyperlinks:
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v1_kpn/1,
+  nr: '371', type: Merge}
+- {link: /vobs/porta -> /view/LANGIEWI_M_PORTA_BAS_052_MAINT_DEV/vobs/porta/sw/develop/source/siemens/applications/html/param_table.txt@@/main/porta_v2_pre/1,
+  nr: '931', type: Merge}
+labels: [PORTA_TIH_BAS_020, PORTA_TIH_BAS_020_T, PORTA_BAS_020_1, PORTA_BAS_020]
+predecessor: {branch: /main, nr: '3'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '4', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-07-25T02:21:53+02:00', ClearCase Administrator (ccadmin.ccusers@bchk081x),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '3']
+
+
+comment: '"Imported from porta_leo@@/main/PORTA_LEO_MAIN_BAS_020_T1"'
+creator: ClearCase Administrator (ccadmin.ccusers@bchk081x)
+datetime: '2006-07-25T02:21:53+02:00'
+elementtype: text_file
+predecessor: {branch: /main, nr: '2'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '3', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-07-12T17:58:50+02:00', ClearCase Administrator (ccadmin.ccusers@bchk081x),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '2']
+
+
+comment: '"Imported from porta_leo@@/main/PORTA_LEO_MAIN_BAS_019"'
+creator: ClearCase Administrator (ccadmin.ccusers@bchk081x)
+datetime: '2006-07-12T17:58:50+02:00'
+elementtype: text_file
+labels: [PORTA_V1_KPN_BAS_019, PORTA_V2_PRE_BAS_019, PORTA_BAS_019]
+predecessor: {branch: /main, nr: '1'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '2', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-06-30T11:53:19+02:00', ClearCase Administrator (ccadmin.ccusers@bchk54zc),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '1']
+
+
+comment: '"Import from PORTA_LEO_MAIN_BAS_018"'
+creator: ClearCase Administrator (ccadmin.ccusers@bchk54zc)
+datetime: '2006-06-30T11:53:19+02:00'
+elementtype: text_file
+labels: [PORTA_BAS_018]
+predecessor: {branch: /main, nr: '0'}
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '1', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
+
+
+
+['2006-06-30T11:53:19+02:00', ClearCase Administrator (ccadmin.ccusers@bchk54zc),
+  /home/langiewi_m/p2_latest/develop/source/siemens/applications/html, param_table.txt,
+  /main, '0']
+
+
+comment: ''
+creator: ClearCase Administrator (ccadmin.ccusers@bchk54zc)
+datetime: '2006-06-30T11:53:19+02:00'
+elementtype: text_file
+protection:
+  group: {name: PL_WRO_CC_USR, rights: r--}
+  other: {name: '', rights: r--}
+  user: {name: wrocc_adm, rights: r--}
+type: file
+version: {branch: /main, name: param_table.txt, nr: '0', path: /home/langiewi_m/p2_latest/develop/source/siemens/applications/html}
