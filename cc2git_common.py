@@ -34,7 +34,7 @@ def run_command(cmd, log=True):
         endtime = time()
         print "    END COMMAND: ", cmd, " (time: ", endtime - starttime, ")"
 
-def try_command_out(command, trials=5, pause=3):
+def try_command_out(command, trials=20, pause=5):
     status = 0
     output = ""
     for i in range(trials):
