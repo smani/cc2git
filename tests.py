@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     #Test shell stuff:
     """
-    os.system("A=bla ; B=ble ; echo test1: A=$A B=$B ; export")
+    os.system("A=bla ; B=blee ; echo test1: A=$A B=$B ; export")
     os.system("export")
     os.system("echo test2: A=$A B=$B")
     os.system("export")
