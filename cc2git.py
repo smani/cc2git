@@ -7,34 +7,18 @@ Usage: cc2git input_dir output_dir dbfilename
 
 
 """
-#TODO: sprawdzic czy moge przyspieszyc jakims recznym skompilowaniem tego skryptu
-#TODO: obsluga linkow (do plikow, do katalogow w tym samym vobie, do katalogow w innym vobie..)
-"""
-    o linkach: prosta wersja: linki (podobnie jak katalogi) traktujemy jako czesc szkieletu repozytorium gitowego,
-    czyli tworzymy wszystkie na poczatku (przed pierwszym commitem gitowym) nawet linki do nieistniejacych jeszcze plikow,
-    bo potem z czasem odpowiednie pliki beda sie pojawiac..
-
-    jescze sprawa linkow do katalogow/plikow wychodzacych poza vob porty (a raczej poza korzen drzewa dla ktorego odpalilismy skrypt):
-        - albo traktujemy je tak jak inne linki, ale wtedy musimy osobno puszczac skrypt dla brakujacych vobow i jakos to potem
-            poustawiac zeby linki siegaly tam gdzie trzeba - trudne i problemy z wersjonowaniem (bo nie mamy juz tylko jednego lancuszka)
-        - albo traktujemy je jak obiekty na ktore wskazuja - lepsza prostsza opcja, ale TODO: posprawdzac czy nie bedzie duplikatow!
-"""
-#TODO: posprawdzac czy linki nie spowoduja duplikacji plikow w jakis sposob (jesli np linki do innego voba pozamieniam na zwykle katalogi)
-#TODO: pomysl na oszczedzenie pamieci: tworzyc jakas magiczna liczbe dla kazdej kulki
-# taka zeby potem sortowanie bylo tylko po tej liczbie i bylo takie jak chcemy..
-#TODO: uzyc popen2 do zarzadzania cleartoolem ??
-#TODO: commit --date i --author (olewamy GIT_COMMITER_DATE raczej, bo w yamlowym pliku sobie to zapiszemy
-#TODO: uzywac w yamlu "---" zeby moc czytac, pisac strumieniowo
+#TODO: commit --date i --author (olewamy GIT_COMMITER_DATE raczej, bo w yamlowym pliku sobie to zapiszemy (napewno????)
+#TODO: uzywac w yamlu "---" zeby moc czytac, pisac strumieniowo;
 #TODO: cc2git.yaml -> cc2git_tmp->yaml, a ostateczny tworzyc strumieniowo przy odpalaniu gita i wpisywac tam hasze commitow
-#TODO: liczbe prob w try_command_out dac na jakies 20 bo chyba warto... (i moze pause zmienic)
 
 import os
 import os.path
 import yaml
 import bisect
 from time import time
-from cc2git_common import try_command_out
 from cc2git_common import run_command
+from cc2git_common import try_command_out
+from cc2git_common import make_path
 
 db = []
 
@@ -186,7 +170,7 @@ def file2db(cc_f, git_f):
 
 def walk(top_dirs, cc_dir, files):
     global db
-    (cc_top, git_top) = top_dirs
+    cc_top, git_top = top_dirs
     if cc_dir.find(cc_top) != 0:
         raise Exception
     cc_dirrest = cc_dir[len(cc_top):].strip("/")
@@ -199,26 +183,54 @@ def walk(top_dirs, cc_dir, files):
         if os.path.isfile(cc_f):
             file2db(cc_f, git_f)
         elif os.path.isdir(cc_f):
-            try:
-                os.makedirs(git_f)
-            except os.error: #TODO: lapac tylko wyjatek typu File exists
-                pass
+            make_path(git_f)
         elif os.path.islink(cc_f):
             os.system("cp -d " + cc_f + " " + git_f)
 
-def stage2(cc_dir, git1_dir1, git2_dir, dbfilename):
+def stage2(cc_topdir, git1_topdir, git2_topdir, dbfilename):
+    """
+    if dbfilename is empty it tries to use actual value of global db variable
+    """
     global db
+    print "******** STAGE 2 **********"
+    if len(dbfilename) > 0:
+        dbfile = open(dbfilename)
+        db = yaml.load(dbfile)
+        dbfile.close()
+
+    make_path(git2_topdir)
+    run_command("cd " + git2_topdir + " ; git init")
+
     for key in db:
-        pass #dupa!
+        date, author, dir, fname, branch, ver = key
+
+        if dir.find(cc_topdir) != 0:
+            raise Exception
+        dirrest = dir[len(cc_topdir):].strip("/")
+        dirrest_fname = os.path.join(dirrest, fname)
+        cc_f = os.path.join(dir, fname)
+        git1_f = os.path.join(git1_topdir, dirrest_fname) #FIXME: tego chyba nawet nie uzyjemy przynajmniej narazie..
+        git2_dir = os.path.join(git2_topdir, dirrest)
+        git2_f = os.path.join(git2_dir, fname)
+        make_path(git2_dir)
+        dirrest_fname_branch_ver = dirrest_fname + "@@" + branch + "/" + ver
+        dir_fname_branch_ver = os.path.join(cc_topdir, dirrest_fname_branch_ver)
+        run_command("cp -d \"" + dir_fname_branch_ver + "\" \"" + git2_f + "\"", pretend=True) #TODO: na koncu wywalic pretend
+        f = open(git2_f, "w")
+        yaml.dump(key, f)
+        f.close()
+
+        run_command("cd \"" + git2_dir + "\" ; git add \"" + fname + "\"")
+        vars = "export GIT_AUTHOR_NAME=\"" + author + "\"" + " GIT_AUTHOR_DATE=\"" + date + "\" GIT_COMMITTER_NAME=\"" + author + "\" GIT_COMMITTER_DATE=\"" + date + "\""
+        run_command(vars + " ; cd \"" + git2_topdir + "\"; git commit -m \"cc2git_v01: changed file: " + dir_fname_branch_ver + "\"") #TODO: prawdziwy komentarz z clearcasea
 
 
 def main(cc_dir, git_dir, dbfilename):
     global db
 
-    try:
-        os.makedirs(git_dir)
-    except os.error: #TODO: lapac tylko wyjatek typu File exists
-        pass
+    print "******** STAGE 1 **********"
+
+    make_path(git_dir)
 
     try:
         os.path.walk(cc_dir, walk, (cc_dir, git_dir))
@@ -254,19 +266,18 @@ if __name__ == '__main__':
         "/home/langiewi_m/projects/cc2git_tests/test_06_cma/callcontrol",
         "/home/langiewi_m/projects/cc2git_tests/test_06_cma/db.yaml"
     )
-    run_command("cd /home/langiewi_m/projects/cc2git_tests/ ; cp -a test_06_cma test_06_cma_git")
-    run_command("cd /home/langiewi_m/projects/cc2git_tests/test_06_cma_git ; git init")
+    """
+
     stage2(
         "/home/langiewi_m/p2_latest/develop/source/siemens/applications/cma",
         "/home/langiewi_m/projects/cc2git_tests/test_06_cma",
         "/home/langiewi_m/projects/cc2git_tests/test_06_cma_git",
         "/home/langiewi_m/projects/cc2git_tests/test_06_cma/db.yaml"
     )
+
+
+
     """
-
-
-
-
     VIEW = "LANGIEWI_M_PORTA_BAS_052_MAINT_PREINT"
     VOBS = ["common_software", "components", "danube_tc", "porta", "porta_kernel", "porta_kernel_2_4_31", "porta_tools"]
     OUT_DIR = "/home/langiewi_m/projects/cc2git_tests/test_07_all/"
@@ -277,6 +288,8 @@ if __name__ == '__main__':
             OUT_DIR + "db.yaml"
 
         )
+    """
+
 
     endtime = time()
 

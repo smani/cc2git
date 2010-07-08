@@ -1,6 +1,6 @@
 #!/bin/bash
 LOG=log.txt
-SLEEP=600
+SLEEP=300
 
 echo >> $LOG
 echo -n "Date," >> $LOG

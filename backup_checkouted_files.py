@@ -6,6 +6,7 @@ __date__ ="$Jul 1, 2010 7:48:54 AM$"
 
 import os
 import os.path
+from cc2git_common import make_path
 
 
 
@@ -15,19 +16,13 @@ def rmgen(view):
     os.system(cmd)
 
 def backup(view, lscmd, backup_dir):
-    try:
-        os.makedirs(backup_dir)
-    except OSError: #TODO: lapac tylko File exists
-        pass
+    make_path(backup_dir)
     out = os.popen("cd /view/" + view +" ; " + lscmd)
     line = out.readline().strip()
     while len(line) > 0:
         outpath = os.path.join(backup_dir, line.strip("\"/"))
         (outdir, outfile) = os.path.split(outpath)
-        try:
-            os.makedirs(outdir)
-        except OSError: #TODO lapac tylko File exists
-            pass
+        os.makepath(outdir)
         cmd = "cp " + line + " \"" + outdir + "\""
         print cmd
         os.system(cmd)

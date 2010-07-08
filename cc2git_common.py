@@ -25,11 +25,12 @@ def noemptydirs(dir, filename):
     endtime = time()
     print "END noemptydirs(" + dir + ", " + filename + ") (time: ", endtime - starttime, ")"
 
-def run_command(cmd, log=True):
+def run_command(cmd, log=True, pretend=False):
     if log:
         print "    START COMMAND:", cmd
         starttime = time()
-    os.system(cmd)
+    if not pretend:
+        os.system(cmd)
     if log:
         endtime = time()
         print "    END COMMAND: ", cmd, " (time: ", endtime - starttime, ")"
@@ -51,6 +52,16 @@ def try_command_out(command, trials=20, pause=5):
     if status != 0:
         raise Exception("Error trying command: " + command + "\nstatus: " + str(status) + "\noutput:\n" + output)
     return output
+
+def make_path(path):
+    """
+    make whole path if not exists
+    """
+    try:
+        os.makedirs(path)
+    except os.error: #TODO: lapac tylko wyjatek typu File exists
+        pass
+
 
 if __name__ == "__main__":
     raise Exception
