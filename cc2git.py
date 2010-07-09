@@ -3,16 +3,15 @@
 """Clearcase to Git Exporter
 
 Exports the Clearcase history to git repo.
-Usage: cc2git input_dir output_dir dbfilename
+Usage: cc2git input_dir metadata_output_topdir git_output_dir
 
 
 """
-#TODO: main i stage 2 - poukladac
 #TODO: uzywac w yamlu "---" zeby moc czytac, pisac strumieniowo;
-#TODO: cc2git.yaml -> cc2git_tmp->yaml, a ostateczny tworzyc strumieniowo przy odpalaniu gita i wpisywac tam hasze commitow
 
 import os
 import os.path
+import sys
 import yaml
 import bisect
 from time import time
@@ -21,6 +20,8 @@ from cc2git_common import run_command
 from cc2git_common import try_command_out
 from cc2git_common import make_path
 from cc2git_common import time_str
+
+DEFAULT_DBFILE="db.yaml"
 
 db = []
 
@@ -117,7 +118,7 @@ def parse_describe(describe):
                 lines = lines[i:]
             elif lines[0].strip() == "Hyperlinks:":
                 i = which_string_contains_oneof(lines, SECTION_NAMES, 1)
-                #FIXME: narazie olewam hyperlinki..
+                #TODO: narazie olewam hyperlinki..
                 lines = lines[i:]
             else:
                 print "Error: unknown line found in describe output:"
@@ -128,7 +129,7 @@ def parse_describe(describe):
         info["type"] = "unknown"
     return info
 
-def file2db(cc_f, git_f):
+def file2db(cc_f, meta_f):
     global db
     print "file2db", cc_f
     info = parse_describe(try_command_out("cleartool describe -long \"" + cc_f + "\""))
@@ -163,45 +164,57 @@ def file2db(cc_f, git_f):
             else:
                 info = None
         #desc_list.reverse() #TODO: czy musimy to odwracac? chyba nie..
-        out = open(git_f, 'w')
+        out = open(meta_f, 'w')
         yaml.dump(desc_list, out, default_flow_style=False, indent=4)
         out.close()
     else:
-        pass #TODO:obsluga innych typow (skrotow do plikow i do katalogow i plikow prywatnych czy cos..
+        pass #TODO: moze kiedys: lepsza obsluga innych typow (skrotow do plikow i do katalogow i plikow prywatnych czy cos..
 
 
-def walk(top_dirs, cc_dir, files):
+def stage1_walk(top_dirs, cc_actdir, files):
     global db
-    cc_top, git_top = top_dirs
-    if cc_dir.find(cc_top) != 0:
+    cc_topdir, meta_topdir = top_dirs
+    if cc_dir.find(cc_topdir) != 0:
         raise Exception
-    cc_dirrest = cc_dir[len(cc_top):].strip("/")
+    cc_dirrest = cc_actdir[len(cc_topdir):].strip("/")
 
-    print "walk", cc_dir
+    print "walk", cc_actdir
 
-    for f in files:
-        cc_f = os.path.join(cc_dir, f)
-        git_f = os.path.join(git_top, cc_dirrest, f)
-        if os.path.isfile(cc_f):
-            file2db(cc_f, git_f)
-        elif os.path.isdir(cc_f):
-            make_path(git_f)
-        elif os.path.islink(cc_f):
-            os.system("cp -d -f " + cc_f + " " + git_f)
+    for file in files:
+        cc_fullfile = os.path.join(cc_actdir, file)
+        meta_fullfile = os.path.join(meta_topdir, cc_dirrest, file)
+        if os.path.isfile(cc_fullfile):
+            file2db(cc_fullfile, meta_fullfile)
+        elif os.path.isdir(cc_fullfile):
+            make_path(meta_fullfile)
+        elif os.path.islink(cc_fullfile):
+            os.system("cp -d -f " + cc_fullfile + " " + meta_fullfile)
 
-def stage2(cc_topdir, git1_topdir, git2_topdir, dbfilename, clearcasepretend=False):
+def stage1(cc_topdir, metadata_topdir, dbfilename=DEFAULT_DBFILE):
+    global db
+    print "******** STAGE 1 **********"
+    make_path(metadata_topdir)
+    try:
+        os.path.walk(cc_topdir, stage1_walk, (cc_topdir, metadata_topdir))
+    finally:
+        f = open(os.path.join(metadata_topdir, dbfilename), 'w')
+        yaml.dump(db, f, default_flow_style=False, indent=4)
+        f.close()
+
+def stage2(cc_topdir, meta_topdir, git_topdir, use_global_db_value=True, dbfilename=DEFAULT_DBFILE, clearcasepretend=False):
     """
-    if dbfilename is empty it tries to use actual value of global db variable
+    if use_global_db_value == True, it uses actual value of db variable instead of load it from dbfilename
+    if clearcasepretend is True it does not use clearcase at all, but inserts some metadata to files in git tree for testing purposes
     """
     global db
     print "******** STAGE 2 **********"
-    if len(dbfilename) > 0:
-        dbfile = open(dbfilename)
+    if not use_global_db_value:
+        dbfile = open(os.path.join(meta_topdir, dbfilename))
         db = yaml.load(dbfile)
         dbfile.close()
 
-    make_path(git2_topdir)
-    run_command("cd " + git2_topdir + " ; git init", log="little")
+    make_path(git_topdir)
+    run_command("cd " + git_topdir + " ; git init", log=Log.LITTLE)
 
     for key in db:
         date, author, dir, fname, branch, ver = key
@@ -210,91 +223,37 @@ def stage2(cc_topdir, git1_topdir, git2_topdir, dbfilename, clearcasepretend=Fal
             raise Exception
         dirrest = dir[len(cc_topdir):].strip("/")
         dirrest_fname = os.path.join(dirrest, fname)
-        cc_f = os.path.join(dir, fname)
-        git1_f = os.path.join(git1_topdir, dirrest_fname) #FIXME: tego chyba nawet nie uzyjemy przynajmniej narazie..
-        git2_dir = os.path.join(git2_topdir, dirrest)
-        git2_f = os.path.join(git2_dir, fname)
-        make_path(git2_dir)
+        cc_fullfile = os.path.join(dir, fname)
+        meta_fullfile = os.path.join(meta_topdir, dirrest_fname) #TODO: tego chyba nawet nie uzyjemy przynajmniej narazie..
+        git_actdir = os.path.join(git_topdir, dirrest)
+        git_fullfile = os.path.join(git_actdir, fname)
+        make_path(git_actdir)
         dirrest_fname_branch_ver = dirrest_fname + "@@" + branch + "/" + ver
-        dir_fname_branch_ver = os.path.join(cc_topdir, dirrest_fname_branch_ver)
-        run_command("cp -d -f \"" + dir_fname_branch_ver + "\" \"" + git2_f + "\"", log=Log.LITTLE, pretend=clearcasepretend)
+        cc_dir_fname_branch_ver = os.path.join(cc_topdir, dirrest_fname_branch_ver)
+        run_command("cp -d -f \"" + cc_dir_fname_branch_ver + "\" \"" + git_fullfile + "\"", log=Log.LITTLE, pretend=clearcasepretend)
         if clearcasepretend:
-            f = open(git2_f, "w")
+            f = open(git_fullfile, "w")
             yaml.dump(key, f)
             f.close()
 
-        run_command("cd \"" + git2_dir + "\" ; git add \"" + fname + "\"", log=Log.LITTLE)
-        email = "unknown@nowhere.fixme" #TODO: get real email from author name
+        run_command("cd \"" + git_actdir + "\" ; git add \"" + fname + "\"", log=Log.LITTLE)
+        email = "unknown@nowhere.todo" #TODO: get real email from author name
         vars = "export GIT_AUTHOR_NAME=\"" + author + "\"" + " GIT_AUTHOR_DATE=\"" + date + "\" GIT_AUTHOR_EMAIL=\"" + email + "\" GIT_COMMITTER_NAME=\"" + author + "\" GIT_COMMITTER_DATE=\"" + date + "\" GIT_COMMITTER_EMAIL=\"" + email + "\""
-        run_command(vars + " ; cd \"" + git2_topdir + "\"; git commit -m \"cc2git_v01: file: " + dirrest_fname_branch_ver + "\"", log=Log.LITTLE) #TODO: prawdziwy komentarz z clearcasea
+        run_command(vars + " ; cd \"" + git_topdir + "\"; git commit -m \"cc2git_v01: file: " + dirrest_fname_branch_ver + "\"", log=Log.LITTLE) #TODO: prawdziwy komentarz z clearcasea
 
 
-def main(cc_dir, git_dir, dbfilename):
-    global db
-
-    print "******** STAGE 1 **********"
-
-    make_path(git_dir)
-
-    try:
-        os.path.walk(cc_dir, walk, (cc_dir, git_dir))
-    finally:
-        f = open(dbfilename, 'w')
-        yaml.dump(db, f, default_flow_style=False, indent=4)
-        f.close()
+def main(cc_topdir, meta_topdir, git_topdir):
+    stage1(cc_topdir, meta_topdir, git_topdir) #creates metadata tree using clearcase
+    stage2(cc_topdir, meta_topdir, git_topdir) #creates git repo using metadata tree and clearcase
 
 if __name__ == '__main__':
+
     starttime = time()
-    """
+
     if len(sys.argv) != 4:
         print __doc__
         exit()
     main(sys.argv[1], sys.argv[2], sys.argv[3])
-    """
-
-
-
-    """
-    main(
-        "/home/langiewi_m/p2_latest/develop/source/siemens/applications/cma/digitmap",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/digitmap",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/db.yaml"
-    )
-    main(
-        "/home/langiewi_m/p2_latest/develop/source/siemens/applications/cma/doc",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/doc",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/db.yaml"
-    )
-    main(
-        "/home/langiewi_m/p2_latest/develop/source/siemens/applications/cma/callcontrol",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/callcontrol",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/db.yaml"
-    )
-    """
-
-    stage2(
-        "/home/langiewi_m/p2_latest/develop/source/siemens/applications/cma",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma_git",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/db.yaml",
-        clearcasepretend=True
-    )
-
-
-
-    """
-    VIEW = "LANGIEWI_M_PORTA_BAS_052_MAINT_PREINT"
-    VOBS = ["common_software", "components", "danube_tc", "porta", "porta_kernel", "porta_kernel_2_4_31", "porta_tools"]
-    OUT_DIR = "/home/langiewi_m/projects/cc2git_tests/test_07_all/"
-    for vob in VOBS:
-        main(
-            "/view/" + VIEW + "/vobs/" + vob,
-            OUT_DIR + "/vobs/" + vob,
-            OUT_DIR + "db.yaml"
-
-        )
-    """
-
 
     endtime = time()
 
