@@ -7,7 +7,7 @@ Usage: cc2git input_dir output_dir dbfilename
 
 
 """
-#TODO: commit --date i --author (olewamy GIT_COMMITER_DATE raczej, bo w yamlowym pliku sobie to zapiszemy (napewno????)
+#TODO: main i stage 2 - poukladac
 #TODO: uzywac w yamlu "---" zeby moc czytac, pisac strumieniowo;
 #TODO: cc2git.yaml -> cc2git_tmp->yaml, a ostateczny tworzyc strumieniowo przy odpalaniu gita i wpisywac tam hasze commitow
 
@@ -16,9 +16,11 @@ import os.path
 import yaml
 import bisect
 from time import time
+from cc2git_common import Log
 from cc2git_common import run_command
 from cc2git_common import try_command_out
 from cc2git_common import make_path
+from cc2git_common import time_str
 
 db = []
 
@@ -185,9 +187,9 @@ def walk(top_dirs, cc_dir, files):
         elif os.path.isdir(cc_f):
             make_path(git_f)
         elif os.path.islink(cc_f):
-            os.system("cp -d " + cc_f + " " + git_f)
+            os.system("cp -d -f " + cc_f + " " + git_f)
 
-def stage2(cc_topdir, git1_topdir, git2_topdir, dbfilename):
+def stage2(cc_topdir, git1_topdir, git2_topdir, dbfilename, clearcasepretend=False):
     """
     if dbfilename is empty it tries to use actual value of global db variable
     """
@@ -199,7 +201,7 @@ def stage2(cc_topdir, git1_topdir, git2_topdir, dbfilename):
         dbfile.close()
 
     make_path(git2_topdir)
-    run_command("cd " + git2_topdir + " ; git init")
+    run_command("cd " + git2_topdir + " ; git init", log="little")
 
     for key in db:
         date, author, dir, fname, branch, ver = key
@@ -215,14 +217,16 @@ def stage2(cc_topdir, git1_topdir, git2_topdir, dbfilename):
         make_path(git2_dir)
         dirrest_fname_branch_ver = dirrest_fname + "@@" + branch + "/" + ver
         dir_fname_branch_ver = os.path.join(cc_topdir, dirrest_fname_branch_ver)
-        run_command("cp -d \"" + dir_fname_branch_ver + "\" \"" + git2_f + "\"", pretend=True) #TODO: na koncu wywalic pretend
-        f = open(git2_f, "w")
-        yaml.dump(key, f)
-        f.close()
+        run_command("cp -d -f \"" + dir_fname_branch_ver + "\" \"" + git2_f + "\"", log=Log.LITTLE, pretend=clearcasepretend)
+        if clearcasepretend:
+            f = open(git2_f, "w")
+            yaml.dump(key, f)
+            f.close()
 
-        run_command("cd \"" + git2_dir + "\" ; git add \"" + fname + "\"")
-        vars = "export GIT_AUTHOR_NAME=\"" + author + "\"" + " GIT_AUTHOR_DATE=\"" + date + "\" GIT_COMMITTER_NAME=\"" + author + "\" GIT_COMMITTER_DATE=\"" + date + "\""
-        run_command(vars + " ; cd \"" + git2_topdir + "\"; git commit -m \"cc2git_v01: changed file: " + dir_fname_branch_ver + "\"") #TODO: prawdziwy komentarz z clearcasea
+        run_command("cd \"" + git2_dir + "\" ; git add \"" + fname + "\"", log=Log.LITTLE)
+        email = "unknown@nowhere.fixme" #TODO: get real email from author name
+        vars = "export GIT_AUTHOR_NAME=\"" + author + "\"" + " GIT_AUTHOR_DATE=\"" + date + "\" GIT_AUTHOR_EMAIL=\"" + email + "\" GIT_COMMITTER_NAME=\"" + author + "\" GIT_COMMITTER_DATE=\"" + date + "\" GIT_COMMITTER_EMAIL=\"" + email + "\""
+        run_command(vars + " ; cd \"" + git2_topdir + "\"; git commit -m \"cc2git_v01: file: " + dirrest_fname_branch_ver + "\"", log=Log.LITTLE) #TODO: prawdziwy komentarz z clearcasea
 
 
 def main(cc_dir, git_dir, dbfilename):
@@ -272,7 +276,8 @@ if __name__ == '__main__':
         "/home/langiewi_m/p2_latest/develop/source/siemens/applications/cma",
         "/home/langiewi_m/projects/cc2git_tests/test_06_cma",
         "/home/langiewi_m/projects/cc2git_tests/test_06_cma_git",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/db.yaml"
+        "/home/langiewi_m/projects/cc2git_tests/test_06_cma/db.yaml",
+        clearcasepretend=True
     )
 
 
@@ -293,7 +298,7 @@ if __name__ == '__main__':
 
     endtime = time()
 
-    print "calkowity czas dzialania:", endtime - starttime
+    print "calkowity czas dzialania:", time_str(endtime - starttime)
 
 
 

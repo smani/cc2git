@@ -60,6 +60,7 @@ if __name__ == "__main__":
     print out
     """
 
+    """
     lines = cc2git_common.try_command_out("ls").splitlines()
     #print cc2git_common.try_command_out("ls dupasatana")
     
@@ -69,3 +70,7 @@ if __name__ == "__main__":
     print "\n".join(lines[2:i])
     print i
     pprint(lines)
+    """
+    l = [1, 1.2, 4.5, 20, 61, 119.99, 456785.53728953, 3700, 3600]
+    for x in l:
+        print x, cc2git_common.time_str(x)
