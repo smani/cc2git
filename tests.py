@@ -84,7 +84,7 @@ if __name__ == "__main__":
     for x in l:
         print x, cc2git_common.time_str(x)
     """
-    VIEW = "PORTA_MAREK"
+    VIEW = "MAREK_PORTA"
     include_porta_vobs = "porta(_(kernel(_2_4_31)?)|(tools))?"
     include_vobs = "(common_software)|(components)|(danube_tc)|(" + include_porta_vobs + ")"
     exclude = "/view/" + VIEW + "/vobs/(?!(" + include_vobs + ")).+"

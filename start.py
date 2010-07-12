@@ -23,10 +23,10 @@ if __name__ == "__main__":
     )
     """
 
-    VIEW = "PORTA_MAREK"
+    VIEW = "MAREK_PORTA"
     include_porta_vobs = "porta(_(kernel(_2_4_31)?)|(tools))?"
     include_vobs = "(common_software)|(components)|(danube_tc)|(" + include_porta_vobs + ")"
-    exclude = "/view/" + VIEW + "/vobs/(?!(" + include_vobs + ")).+"
+    exclude = "(?!/view/" + VIEW + "/vobs((/(" + include_vobs + "))?)).+"
     exclude = "(.*/.*/.*/.*/.*/.*/.*/.*/.*)|(" + exclude + ")"
     cc_topdir = "/view/" + VIEW
     meta_topdir = "/home/langiewi_m/cc2git_tests/test_04_all_meta"

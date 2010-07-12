@@ -180,7 +180,7 @@ def stage1_walk(top_dirs, cc_actdir, files, fileforemptydirs=".gitignore"):
     """
     global db
     cc_topdir, meta_topdir = top_dirs
-    if cc_dir.find(cc_topdir) != 0:
+    if cc_actdir.find(cc_topdir) != 0:
         raise Exception
     cc_dirrest = cc_actdir[len(cc_topdir):].strip("/")
 
@@ -188,8 +188,7 @@ def stage1_walk(top_dirs, cc_actdir, files, fileforemptydirs=".gitignore"):
 
     if len(files) == 0:
         f = os.path.join(meta_topdir, cc_dirrest, fileforemptydirs)
-        open(f, "w")
-        f.close()
+        open(f, "w").close()
     else:
         for file in files:
             cc_fullfile = os.path.join(cc_actdir, file)
