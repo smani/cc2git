@@ -3,10 +3,12 @@
 """Clearcase to Git Exporter
 
 Exports the Clearcase history to git repo.
-Usage: cc2git input_dir metadata_output_topdir git_output_dir
+Usage: cc2git input_dir metadata_output_topdir git_output_dir exclude_regexp
 
 
 """
+#TODO: stage2: linki i puste katalogi trzeba przekopiowac z drzewa meta do drzewa git. (dla pustych katalogow tworzyc .gitignore)
+#TODO: albo poprostu skopiowac cale meta jako pierwsza wersje gita (czyli w meta musimy miec juz puste katalogi(.gitignore) i linki
 #TODO: uzywac w yamlu "---" zeby moc czytac, pisac strumieniowo;
 
 import os
@@ -20,6 +22,7 @@ from cc2git_common import run_command
 from cc2git_common import try_command_out
 from cc2git_common import make_path
 from cc2git_common import time_str
+from cc2git_common import walk_exclude
 
 DEFAULT_DBFILE="db.yaml"
 
@@ -171,7 +174,10 @@ def file2db(cc_f, meta_f):
         pass #TODO: moze kiedys: lepsza obsluga innych typow (skrotow do plikow i do katalogow i plikow prywatnych czy cos..
 
 
-def stage1_walk(top_dirs, cc_actdir, files):
+def stage1_walk(top_dirs, cc_actdir, files, fileforemptydirs=".gitignore"):
+    """
+    fileforemptydirs - an empty file with that name will be placed in any empty directory in meta tree
+    """
     global db
     cc_topdir, meta_topdir = top_dirs
     if cc_dir.find(cc_topdir) != 0:
@@ -180,24 +186,29 @@ def stage1_walk(top_dirs, cc_actdir, files):
 
     print "walk", cc_actdir
 
-    for file in files:
-        cc_fullfile = os.path.join(cc_actdir, file)
-        meta_fullfile = os.path.join(meta_topdir, cc_dirrest, file)
-        if os.path.isfile(cc_fullfile):
-            file2db(cc_fullfile, meta_fullfile)
-        elif os.path.isdir(cc_fullfile):
-            make_path(meta_fullfile)
-        elif os.path.islink(cc_fullfile):
-            os.system("cp -d -f " + cc_fullfile + " " + meta_fullfile)
+    if len(files) == 0:
+        f = os.path.join(meta_topdir, cc_dirrest, fileforemptydirs)
+        open(f, "w")
+        f.close()
+    else:
+        for file in files:
+            cc_fullfile = os.path.join(cc_actdir, file)
+            meta_fullfile = os.path.join(meta_topdir, cc_dirrest, file)
+            if os.path.isfile(cc_fullfile):
+                file2db(cc_fullfile, meta_fullfile)
+            elif os.path.isdir(cc_fullfile):
+                make_path(meta_fullfile)
+            elif os.path.islink(cc_fullfile):
+                os.system("cp -d -f " + cc_fullfile + " " + meta_fullfile)
 
-def stage1(cc_topdir, metadata_topdir, dbfilename=DEFAULT_DBFILE):
+def stage1(cc_topdir, meta_topdir, exclude, dbfilename=DEFAULT_DBFILE):
     global db
     print "******** STAGE 1 **********"
-    make_path(metadata_topdir)
+    make_path(meta_topdir)
     try:
-        os.path.walk(cc_topdir, stage1_walk, (cc_topdir, metadata_topdir))
+        walk_exclude(cc_topdir, stage1_walk, (cc_topdir, meta_topdir), exclude)
     finally:
-        f = open(os.path.join(metadata_topdir, dbfilename), 'w')
+        f = open(os.path.join(meta_topdir, dbfilename), 'w')
         yaml.dump(db, f, default_flow_style=False, indent=4)
         f.close()
 
@@ -213,8 +224,10 @@ def stage2(cc_topdir, meta_topdir, git_topdir, use_global_db_value=True, dbfilen
         db = yaml.load(dbfile)
         dbfile.close()
 
-    make_path(git_topdir)
-    run_command("cd " + git_topdir + " ; git init", log=Log.LITTLE)
+    run_command("cp -d -f -R -v \"" + meta_topdir + "\" \"" + git_topdir + "\"")
+    run_command("cd " + git_topdir + " ; git init")
+    run_command("cd " + git_topdir + " ; git add .")
+    run_command("cd " + git_topdir + " ; git commit -m \"cc2git_v01: metadata - initial commit\"")
 
     for key in db:
         date, author, dir, fname, branch, ver = key
@@ -242,18 +255,18 @@ def stage2(cc_topdir, meta_topdir, git_topdir, use_global_db_value=True, dbfilen
         run_command(vars + " ; cd \"" + git_topdir + "\"; git commit -m \"cc2git_v01: file: " + dirrest_fname_branch_ver + "\"", log=Log.LITTLE) #TODO: prawdziwy komentarz z clearcasea
 
 
-def main(cc_topdir, meta_topdir, git_topdir):
-    stage1(cc_topdir, meta_topdir, git_topdir) #creates metadata tree using clearcase
+def main(cc_topdir, meta_topdir, git_topdir, exclude="a^"): #FIXME: better default exclude (to match nothing)
+    stage1(cc_topdir, meta_topdir, exclude) #creates metadata tree using clearcase
     stage2(cc_topdir, meta_topdir, git_topdir) #creates git repo using metadata tree and clearcase
 
 if __name__ == '__main__':
 
     starttime = time()
 
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 5:
         print __doc__
         exit()
-    main(sys.argv[1], sys.argv[2], sys.argv[3])
+    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
 
     endtime = time()
 

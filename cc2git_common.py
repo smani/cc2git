@@ -1,3 +1,4 @@
+import re
 
 __author__="langiewi_m"
 __date__ ="$Jun 25, 2010 10:21:13 AM$"
@@ -81,6 +82,24 @@ def time_str(sec):
     if h > 0:
         result = str(h) + " hours " + result
     return result
+
+def walk_exclude_walk(data, dir, fnames):
+    """
+    TODO: ta funkcja ma byc prywatna
+    """
+    print "walk_execute_walk: dir:", dir
+    walk, data, exclude = data
+    for f in fnames[:]:
+        ff = os.path.join(dir,f)
+        print "re.search(exclude, \"" + ff + "\")"
+        if re.search(exclude, ff):
+            print "remove:", f
+            fnames.remove(f)
+    walk(data, dir, fnames)
+
+def walk_exclude(topdir, walk, data, exclude):
+    print "walk_execute: topdir:", topdir, "data:", data, "exclude:", exclude
+    os.path.walk(topdir, walk_exclude_walk, (walk, data, exclude))
 
 if __name__ == "__main__":
     raise Exception

@@ -9,6 +9,13 @@ __date__ ="$Jul 1, 2010 12:17:34 PM$"
 import cc2git_common
 from pprint import pprint
 
+def test_walk(arg, dir, files):
+    print "test_walk: arg:", arg, "dir:", dir
+    print "files:"
+    for file in files:
+        print file
+    print
+
 if __name__ == "__main__":
 
 
@@ -71,6 +78,16 @@ if __name__ == "__main__":
     print i
     pprint(lines)
     """
+
+    """
     l = [1, 1.2, 4.5, 20, 61, 119.99, 456785.53728953, 3700, 3600]
     for x in l:
         print x, cc2git_common.time_str(x)
+    """
+    VIEW = "PORTA_MAREK"
+    include_porta_vobs = "porta(_(kernel(_2_4_31)?)|(tools))?"
+    include_vobs = "(common_software)|(components)|(danube_tc)|(" + include_porta_vobs + ")"
+    exclude = "/view/" + VIEW + "/vobs/(?!(" + include_vobs + ")).+"
+    exclude = "(.*/.*/.*/.*/.*/.*/.*/.*/.*/.*)|(" + exclude + ")"
+    cc2git_common.walk_exclude("/home/langiewi_m/tmp/walktest/", test_walk, "dupa", exclude)
+
