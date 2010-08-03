@@ -16,13 +16,9 @@ import os.path
 import sys
 import yaml
 import bisect
+from pprint import pprint
 from time import time
-from cc2git_common import Log
-from cc2git_common import run_command
-from cc2git_common import try_command_out
-from cc2git_common import make_path
-from cc2git_common import time_str
-from cc2git_common import walk_exclude
+from common import *
 
 DEFAULT_DBFILE="db.yaml"
 
@@ -89,6 +85,8 @@ def parse_describe(describe):
             raise Exception
         created = created[1].split("by", 1)
         info["datetime"] = created[0].strip() #TODO: parsowanie daty i czasu
+        if len(info["datetime"]) < 3:
+            raise Exception #FIXME: tymczasowo bo czasem dostajemy chyba pusta date...
         info["creator"] = created[1].strip()
         i = which_string_contains_oneof(lines, SECTION_NAMES, 2)
         info["comment"] = "\n".join(lines[2:i]).strip()
@@ -135,21 +133,48 @@ def parse_describe(describe):
 def file2db(cc_f, meta_f):
     global db
     print "file2db", cc_f
-    info = parse_describe(try_command_out("cleartool describe -long \"" + cc_f + "\""))
+    cmd = "cleartool describe -long \"" + cc_f + "\""
+    out = try_command_out(cmd)
+    try:
+        info = parse_describe(out)
+    except:
+        print "Error: coudln\'t parse this cleartool describe output...:"
+        print "The command was:", cmd
+        print "The output was:"
+        print out
+        print
+        return
     if info["type"] == "file":
         if info["version"]["nr"] == "CHECKEDOUT":
             cmd = "cleartool describe -long \""+cc_f+"@@"+info["version"]["from"]["branch"]+"/"+info["version"]["from"]["nr"]+"\""
-            info = parse_describe(try_command_out(cmd))
+            out = try_command_out(cmd)
+            try:
+                info = parse_describe(out)
+            except:
+                print "Error: coudln\'t parse this cleartool describe output...:"
+                print "The command was:", cmd
+                print "The output was:"
+                print out
+                print
+                info = None
         desc_list = []
         while info != None:
-            key = [
-                info["datetime"],
-                info["creator"],
-                info["version"]["path"],
-                info["version"]["name"],
-                info["version"]["branch"],
-                info["version"]["nr"],
-            ]
+            try:
+                key = [
+                    info["datetime"],
+                    info["creator"],
+                    info["version"]["path"],
+                    info["version"]["name"],
+                    info["version"]["branch"],
+                    info["version"]["nr"],
+                ]
+            except:
+                print "Error: coudln\'t get enough information from parsed describe ...:"
+                print "info:"
+                pprint(info)
+                print
+                info = None
+                break
             bisect.insort(db, key)
             desc_list.append(info)
             if info.has_key("predecessor"):
@@ -225,7 +250,7 @@ def stage2(cc_topdir, meta_topdir, git_topdir, use_global_db_value=True, dbfilen
 
     run_command("cp -d -f -R -v \"" + meta_topdir + "\" \"" + git_topdir + "\"")
     run_command("cd " + git_topdir + " ; git init")
-    run_command("cd " + git_topdir + " ; git add .")
+    run_command("cd " + git_topdir + " ; git add -- .")
     run_command("cd " + git_topdir + " ; git commit -m \"cc2git_v01: metadata - initial commit\"")
 
     for key in db:
@@ -248,7 +273,7 @@ def stage2(cc_topdir, meta_topdir, git_topdir, use_global_db_value=True, dbfilen
             yaml.dump(key, f)
             f.close()
 
-        run_command("cd \"" + git_actdir + "\" ; git add \"" + fname + "\"", log=Log.LITTLE)
+        run_command("cd \"" + git_actdir + "\" ; git add -- \"" + fname + "\"", log=Log.LITTLE)
         email = "unknown@nowhere.todo" #TODO: get real email from author name
         vars = "export GIT_AUTHOR_NAME=\"" + author + "\"" + " GIT_AUTHOR_DATE=\"" + date + "\" GIT_AUTHOR_EMAIL=\"" + email + "\" GIT_COMMITTER_NAME=\"" + author + "\" GIT_COMMITTER_DATE=\"" + date + "\" GIT_COMMITTER_EMAIL=\"" + email + "\""
         run_command(vars + " ; cd \"" + git_topdir + "\"; git commit -m \"cc2git_v01: file: " + dirrest_fname_branch_ver + "\"", log=Log.LITTLE) #TODO: prawdziwy komentarz z clearcasea

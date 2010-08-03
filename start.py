@@ -7,7 +7,7 @@ from cc2git import stage1
 from cc2git import stage2
 from cc2git import main
 from time import time
-from cc2git_common import time_str
+from common import time_str
 
 if __name__ == "__main__":
 
@@ -24,10 +24,23 @@ if __name__ == "__main__":
     """
 
     VIEW = "MAREK_PORTA"
+    """
     include_porta_vobs = "porta(_(kernel(_2_4_31)?)|(tools))?"
     include_vobs = "(common_software)|(components)|(danube_tc)|(" + include_porta_vobs + ")"
     exclude = "(?!/view/" + VIEW + "/vobs((/(" + include_vobs + "))?)).+"
     exclude = "(.*/.*/.*/.*/.*/.*/.*/.*/.*)|(" + exclude + ")"
+    """
+
+
+    full_vobs_dir = "/view/" + VIEW + "/vobs"
+    porta_alternative = "$|(_tools)|(_kernel($|(_2_4_31)))"
+    alternative = "$|(/components)|(/common_software)|(/danube_tc)|(/porta(" + porta_alternative + "))"
+    exclude = "^((?!"+ full_vobs_dir +")|(" + full_vobs_dir + "(?!" + alternative + ")))"                
+    exclude = "((.*/){7})|(lost\\+found)|(" + exclude + ")"
+
+
+
+
     cc_topdir = "/view/" + VIEW
     meta_topdir = "/home/langiewi_m/cc2git_tests/test_04_all_meta"
     git_topdir = "/home/langiewi_m/cc2git_tests/test_04_all_git"

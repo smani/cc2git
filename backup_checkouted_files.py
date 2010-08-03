@@ -6,8 +6,7 @@ __date__ ="$Jul 1, 2010 7:48:54 AM$"
 
 import os
 import os.path
-from cc2git_common import make_path
-
+from common import make_path
 
 
 def rmgen(view):

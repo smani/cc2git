@@ -6,8 +6,8 @@ __date__ ="$Jun 25, 2010 10:17:40 AM$"
 import os
 import os.path
 from time import time
-from cc2git_common import run_command
-from cc2git_common import noemptydirs
+from common import run_command
+from common import noemptydirs
 from porta_baselines import PORTA_BASELINES
 
 VCT_CMD = "/build/vct"
