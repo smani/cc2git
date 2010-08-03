@@ -85,79 +85,94 @@ if __name__ == "__main__":
         print x, cc2git_common.time_str(x)
     """
     VIEW = "MAREK_PORTA"
+    """
     include_porta_vobs = "porta(_(kernel(_2_4_31)?)|(tools))?"
     include_vobs = "(common_software)|(components)|(danube_tc)|(" + include_porta_vobs + ")"
     exclude = "/view/" + VIEW + "/vobs/(?!(" + include_vobs + ")).+"
     print exclude
     exclude = "(.*/.*/.*/.*/.*/.*/.*/.*/.*/.*)|(" + exclude + ")"
     #cc2git_common.walk_exclude("/home/langiewi_m/tmp/walktest/", test_walk, "dupa", exclude)
-	
+    """
 
-"""
-	view/gjsdfkljsd
-    view/MAREK_PORTA/vla
-x   view/MAREK_PORTA/vobs
-x   view/MAREK_PORTA/vobs/components
-x   view/MAREK_PORTA/vobs/common_software
-x   view/MAREK_PORTA/vobs/danube_tc
-x   view/MAREK_PORTA/vobs/porta
-x   view/MAREK_PORTA/vobs/porta_kernel
-x   view/MAREK_PORTA/vobs/porta_kernel_2_4_31
-x   view/MAREK_PORTA/vobs/porta_tools
-    view/MAREK_PORTA/vobs/dupa
-/view/MAREK_PORTA/vobs/(?!((common_software)|(components)|(danube_tc)|(porta(_(kernel(_2_4_31)?)|(tools))?))).+
-(?!
-view/MAREK_PORTA/vobs
-(
-	/
-	(
-		(components)|
-		(common_software)|
-		(danube_tc)|
-		(
-			porta(
-				(_kernel(_2_4_31)?)|
-				(_tools)
-			)?	
-		)
-	)
-)?
-)
+    """
+        view/gjsdfkljsd
+        view/MAREK_PORTA/vla
+    x   view/MAREK_PORTA/vobs
+    x   view/MAREK_PORTA/vobs/components
+    x   view/MAREK_PORTA/vobs/common_software
+    x   view/MAREK_PORTA/vobs/danube_tc
+    x   view/MAREK_PORTA/vobs/porta
+    x   view/MAREK_PORTA/vobs/porta_kernel
+    x   view/MAREK_PORTA/vobs/porta_kernel_2_4_31
+    x   view/MAREK_PORTA/vobs/porta_tools
+        view/MAREK_PORTA/vobs/dupa
+    """
 
-(
-	(?!
-		/view/MAREK_PORTA/vobs
-	)
-|
-	/view/MAREK_PORTA/vobs
-	(?!
-		(
-			$
-		|
-			(/components)
-		|
-			(/common_software)
-		|
-			(/danube_tc)
-		|
-			(
-				/porta
-				(
-					$
-				|
-					(_tools)
-				|
-					(_kernel)
-					(
-						$
-					|
-						(_2_4_31)
-					)
-				)
-			)
-		)
-	)
-)
+    #/view/MAREK_PORTA/vobs/(?!((common_software)|(components)|(danube_tc)|(porta(_(kernel(_2_4_31)?)|(tools))?))).+
 
 
-"""/view/MAREK_PORTA/vobs/(?!((common_software)|(components)|(danube_tc)|(porta(_(kernel(_2_4_31)?)|(tools))?))).+
+    """
+    (?!
+    view/MAREK_PORTA/vobs
+    (
+        /
+        (
+            (components)|
+            (common_software)|
+            (danube_tc)|
+            (
+                porta(
+                    (_kernel(_2_4_31)?)|
+                    (_tools)
+                )?	
+            )
+        )
+    )?
+    )
+    """
+
+
+    """
+    (
+        (?!
+            /view/MAREK_PORTA/vobs
+        )
+    |
+        /view/MAREK_PORTA/vobs
+        (?!
+            (
+                $
+            |
+                (/components)
+            |
+                (/common_software)
+            |
+                (/danube_tc)
+            |
+                (
+                    /porta
+                    (
+                        $
+                    |
+                        (_tools)
+                    |
+                        (_kernel)
+                        (
+                            $
+                        |
+                            (_2_4_31)
+                        )
+                    )
+                )
+            )
+        )
+    )
+
+    """
+    #full_vobs_dir = "/view/" + VIEW + "/vobs"
+    full_vobs_dir = "/home/langiewi_m/tmp/walktest/vobs"
+    porta_alternative = "$|(_tools)|(_kernel($|(_2_4_31)))"
+    alternative = "$|(/components)|(/common_software)|(/danube_tc)|(/porta(" + porta_alternative + "))"
+    exclude = "^((?!"+ full_vobs_dir +")|(" + full_vobs_dir + "(?!" + alternative + ")))"                
+    exclude = "((.*/){7})|(" + exclude + ")"
+    cc2git_common.walk_exclude("/home/langiewi_m/tmp/walktest/", test_walk, "dupa", exclude)
