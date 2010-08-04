@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Log	common.py	/^class Log:$/;"	c
+backup	backup_checkouted_files.py	/^def backup(view, lscmd, backup_dir):$/;"	f
+ccbase2git	ccbase2git.py	/^def ccbase2git(baselines, view_dir, git_dir, guarddirs):$/;"	f
+file2db	cc2git.py	/^def file2db(cc_f, meta_f):$/;"	f
+listsymlinks	listsymlinks.py	/^def listsymlinks(top):$/;"	f
+lsld_walk	listsymlinks.py	/^def lsld_walk((ldonieistniejacych, ldolinkow, ldokatalogow, ldoplikow), dir,files):$/;"	f
+main	cc2git.py	/^def main(cc_topdir, meta_topdir, git_topdir, exclude="a^"): #FIXME: better default exclude (to match nothing)$/;"	f
+make_path	common.py	/^def make_path(path):$/;"	f
+ned_walk	common.py	/^def ned_walk(filename, dir, elements):$/;"	f
+noemptydirs	common.py	/^def noemptydirs(dir, filename):$/;"	f
+parse_describe	cc2git.py	/^def parse_describe(describe):$/;"	f
+parse_hyperlink	cc2git.py	/^def parse_hyperlink(link):$/;"	f
+parse_version	cc2git.py	/^def parse_version(version):$/;"	f
+rmgen	backup_checkouted_files.py	/^def rmgen(view):$/;"	f
+run_command	common.py	/^def run_command(cmd, log=Log.MUCH, pretend=False):$/;"	f
+stage1	cc2git.py	/^def stage1(cc_topdir, meta_topdir, exclude, dbfilename=DEFAULT_DBFILE):$/;"	f
+stage1_walk	cc2git.py	/^def stage1_walk(top_dirs, cc_actdir, files, fileforemptydirs=".gitignore"):$/;"	f
+stage2	cc2git.py	/^def stage2(cc_topdir, meta_topdir, git_topdir, use_global_db_value=True, dbfilename=DEFAULT_DBFILE, clearcasepretend=False):$/;"	f
+tcommands	tests.py	/^def tcommands():$/;"	f
+test_walk	tests_old.py	/^def test_walk(arg, dir, files):$/;"	f
+tfixme_try_command_out	tests.py	/^def tfixme_try_command_out():$/;"	f
+time_str	common.py	/^def time_str(sec):$/;"	f
+tpopen2	tests.py	/^def tpopen2():$/;"	f
+try_command_out	common.py	/^def try_command_out(command, trials=20, pause=5):$/;"	f
+tshell	tests.py	/^def tshell():$/;"	f
+ttime_str	tests.py	/^def ttime_str():$/;"	f
+twalk	tests.py	/^def twalk():$/;"	f
+usunniewazne	listsymlinks.py	/^def usunniewazne(listalinkow):$/;"	f
+walk_exclude	common.py	/^def walk_exclude(topdir, walk, data, exclude):$/;"	f
+walk_exclude_walk	common.py	/^def walk_exclude_walk(data, dir, fnames):$/;"	f
+walk_test	tests.py	/^def walk_test(arg, dir, files):$/;"	f
+which_string_contains_oneof	cc2git.py	/^def which_string_contains_oneof(stringlist, substringlist, start=0):$/;"	f
