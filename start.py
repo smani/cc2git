@@ -8,44 +8,67 @@ from cc2git import stage2
 from cc2git import main
 from time import time
 from cc2git_common import time_str
+from cc2git_common import run_command
+from pprint import pprint
+
+VIEW = "CC_HISTORY_TO_GIT"
+VOBS_DIR = "/view/" + VIEW + "/vobs" #TODO: czy napewno
+VOBS_DIR = "/home/marek.langiewicz/tmp/walktest/vobs" #TODO: usunac
+VOBS_DIR = "/home/marek.langiewicz/git-repos/porta/vobs" #TODO: usunac
+VCT = "/build/vct" #TODO: upewnic sie ze u slawka to tez taka sciezka
+CREATE_VIEW_CMD = "sudo " + VCT + " mkview --prj Porta_BAS_052_Maint --cnf STANDARD " + VIEW
+HOME_DIR = "/home/langiewi_m" #TODO: podmienic na slawka homa jesli bedziemy odpalac na jego koncie
+HOME_DIR = "/home/marek.langiewicz/tmp" #TODO: usunac
+RESULTS_DIR = HOME_DIR + "/cc2git_results"
+TESTS = [ #TODO; utrzymujemy to mniejwiecej wedlug rozmiaru od najmniejszego
+    ("31", "common_software/sw/develop/source/siemens/interfaces"),
+    ("32", "common_software/sw/develop/makefiles"),
+    ("33", "porta/sw/develop/source/siemens/applications/cma/digitmap"),
+    ("34", "porta/sw/develop/source/siemens/applications/cma/doc"),
+    ("35", "porta/sw/develop/makefiles"),
+    ("36", "porta/sw/develop/profiles"),
+    ("37", "porta/sw/develop/source/siemens/applications/cma/callcontrol"),
+    ("38", "porta/sw/develop/source/siemens/applications/cma/b2bua"),
+    ("39", "porta/sw/develop/source/siemens/applications/cma/endpoint"),
+    ("40", "porta/sw/develop/source/siemens/applications/cma/resourcemanagement"),
+    ("41", "common_software/sw/develop/source/siemens/applications"),
+    ("42", "porta/sw/develop/source/siemens/applications/cma"),
+    ("43", "porta/sw/develop/source/siemens/applications/scm_app"),
+    ("44", "porta/sw/webcommon"),
+    ("45", "porta/sw/develop/source/siemens/applications/html"),
+    ("46", "common_software/sw/develop/source/siemens/libraries"),
+    ("47", "porta/sw/develop/source/siemens/applications"),
+    ("48", "porta/sw/develop/source/siemens/libraries"),
+    ("49", "common_software/sw/develop/source/opensource/components"),
+    ("50", "common_software/sw/develop/source/allegro"),
+]
+
 
 if __name__ == "__main__":
 
     starttime = time()
 
-    """
-    stage2(
-        "/home/langiewi_m/p2_latest/develop/source/siemens/applications/cma",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma",
-        "/home/langiewi_m/projects/cc2git_tests/test_06_cma_git",
-        use_global_db_value=False,
-        clearcasepretend=True
-    )
-    """
+    #run_command(CREATE_VIEW_CMD) #TODO: odpalic ale tylko raz
 
-    VIEW = "MAREK_PORTA"
-    """
-    include_porta_vobs = "porta(_(kernel(_2_4_31)?)|(tools))?"
-    include_vobs = "(common_software)|(components)|(danube_tc)|(" + include_porta_vobs + ")"
-    exclude = "(?!/view/" + VIEW + "/vobs((/(" + include_vobs + "))?)).+"
-    exclude = "(.*/.*/.*/.*/.*/.*/.*/.*/.*)|(" + exclude + ")"
-    """
+    for (test_dirrest, cc_dirrest) in TESTS:
+        test_topdir = RESULTS_DIR + "/" + test_dirrest
+        cc_topdir = VOBS_DIR + "/" + cc_dirrest
+        meta_topdir = test_topdir + "_meta"
+        git_topdir = test_topdir + "_git"
 
+        startmaintime = time()
 
-    full_vobs_dir = "/view/" + VIEW + "/vobs"
-    porta_alternative = "$|(_tools)|(_kernel($|(_2_4_31)))"
-    alternative = "$|(/components)|(/common_software)|(/danube_tc)|(/porta(" + porta_alternative + "))"
-    exclude = "^((?!"+ full_vobs_dir +")|(" + full_vobs_dir + "(?!" + alternative + ")))"                
-    #exclude = "((.*/){9})|(lost\\+found)|(" + exclude + ")"
-    exclude = "(lost\\+found)|(" + exclude + ")"
-
-    cc_topdir = "/view/" + VIEW
-    meta_topdir = "/home/langiewi_m/cc2git_tests/test_10_all_meta"
-    git_topdir = "/home/langiewi_m/cc2git_tests/test_10_all_git"
-
-    main(cc_topdir, meta_topdir, git_topdir, exclude)
-
+        print "!!! ODPALAMY MAIN !!!"
+        print "main(" + cc_topdir + ", " + meta_topdir + ", " + git_topdir + ")"
+        #main(cc_topdir, meta_topdir, git_topdir)
+        main(cc_topdir, meta_topdir, git_topdir, pretend_stage1=True, pretend_stage2=True)
+        #run_command("ls " + cc_topdir)
+        print "!!! ZAKONCZONE MAIN !!!"
+        
+        endmaintime = time()
+        print "czas dzialania main:", time_str(endmaintime - startmaintime)
 
     endtime = time()
 
+    print "!!!!!!!!!!!! ZAKONCZONE WSZYSTKO !!!!!!!!!!"
     print "calkowity czas dzialania:", time_str(endtime - starttime)

@@ -135,10 +135,12 @@ def parse_describe(describe):
         info["type"] = "unknown"
     return info
 
-def file2db(cc_f, meta_f):
+def file2db(cc_f, meta_f, clearcasepretend=False):
     global db
     print "file2db", cc_f
     cmd = "cleartool describe -long \"" + cc_f + "\""
+    if clearcasepretend:
+        cmd = "echo pretending " + cmd
     out = try_command_out(cmd)
     try:
     	info = parse_describe(out)
@@ -203,12 +205,12 @@ def file2db(cc_f, meta_f):
         pass #TODO: moze kiedys: lepsza obsluga innych typow (skrotow do plikow i do katalogow i plikow prywatnych czy cos..
 
 
-def stage1_walk(top_dirs, cc_actdir, files, fileforemptydirs=".gitignore"):
+def stage1_walk(data, cc_actdir, files, fileforemptydirs=".gitignore"):
     """
     fileforemptydirs - an empty file with that name will be placed in any empty directory in meta tree
     """
     global db
-    cc_topdir, meta_topdir = top_dirs
+    cc_topdir, meta_topdir, clearcasepretend = data
     if cc_actdir.find(cc_topdir) != 0:
         raise Exception
     cc_dirrest = cc_actdir[len(cc_topdir):].strip("/")
@@ -223,18 +225,18 @@ def stage1_walk(top_dirs, cc_actdir, files, fileforemptydirs=".gitignore"):
             cc_fullfile = os.path.join(cc_actdir, file)
             meta_fullfile = os.path.join(meta_topdir, cc_dirrest, file)
             if os.path.isfile(cc_fullfile):
-                file2db(cc_fullfile, meta_fullfile)
+                file2db(cc_fullfile, meta_fullfile, clearcasepretend)
             elif os.path.isdir(cc_fullfile):
                 make_path(meta_fullfile)
             elif os.path.islink(cc_fullfile):
                 os.system("cp -d -f " + cc_fullfile + " " + meta_fullfile)
 
-def stage1(cc_topdir, meta_topdir, exclude, dbfilename=DEFAULT_DBFILE):
+def stage1(cc_topdir, meta_topdir, exclude, dbfilename=DEFAULT_DBFILE, clearcasepretend=False):
     global db
     print "******** STAGE 1 **********"
     make_path(meta_topdir)
     try:
-        walk_exclude(cc_topdir, stage1_walk, (cc_topdir, meta_topdir), exclude)
+        walk_exclude(cc_topdir, stage1_walk, (cc_topdir, meta_topdir, clearcasepretend), exclude)
     finally:
         f = open(os.path.join(meta_topdir, dbfilename), 'w')
         yaml.dump(db, f, default_flow_style=False, indent=4)
@@ -283,9 +285,9 @@ def stage2(cc_topdir, meta_topdir, git_topdir, use_global_db_value=True, dbfilen
         run_command(vars + " ; cd \"" + git_topdir + "\"; git commit -m \"cc2git_v01: file: " + dirrest_fname_branch_ver + "\"", log=Log.LITTLE) #TODO: prawdziwy komentarz z clearcasea
 
 
-def main(cc_topdir, meta_topdir, git_topdir, exclude="a^"): #FIXME: better default exclude (to match nothing)
-    stage1(cc_topdir, meta_topdir, exclude) #creates metadata tree using clearcase
-    stage2(cc_topdir, meta_topdir, git_topdir) #creates git repo using metadata tree and clearcase
+def main(cc_topdir, meta_topdir, git_topdir, exclude="a^", pretend_stage1=False, pretend_stage2=False): #FIXME: better default exclude (to match nothing)
+    stage1(cc_topdir, meta_topdir, exclude, clearcasepretend=pretend_stage1) #creates metadata tree using clearcase
+    stage2(cc_topdir, meta_topdir, git_topdir, clearcasepretend=pretend_stage2) #creates git repo using metadata tree and clearcase
 
 if __name__ == '__main__':
 
