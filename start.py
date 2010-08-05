@@ -11,14 +11,13 @@ from cc2git_common import time_str
 from cc2git_common import run_command
 from pprint import pprint
 
-VIEW = "CC_HISTORY_TO_GIT"
+VIEW = "MAREK_PORTA"
 VOBS_DIR = "/view/" + VIEW + "/vobs" #TODO: czy napewno
-VOBS_DIR = "/home/marek.langiewicz/tmp/walktest/vobs" #TODO: usunac
-VOBS_DIR = "/home/marek.langiewicz/git-repos/porta/vobs" #TODO: usunac
+#VOBS_DIR = "/home/marek.langiewicz/tmp/walktest/vobs" #TODO: usunac
+#VOBS_DIR = "/home/marek.langiewicz/git-repos/porta/vobs" #TODO: usunac
 VCT = "/build/vct" #TODO: upewnic sie ze u slawka to tez taka sciezka
 CREATE_VIEW_CMD = "sudo " + VCT + " mkview --prj Porta_BAS_052_Maint --cnf STANDARD " + VIEW
-HOME_DIR = "/home/langiewi_m" #TODO: podmienic na slawka homa jesli bedziemy odpalac na jego koncie
-HOME_DIR = "/home/marek.langiewicz/tmp" #TODO: usunac
+HOME_DIR = "/home/kesicki_sl"
 RESULTS_DIR = HOME_DIR + "/cc2git_results"
 TESTS = [ #TODO; utrzymujemy to mniejwiecej wedlug rozmiaru od najmniejszego
     ("31", "common_software/sw/develop/source/siemens/interfaces"),
@@ -60,8 +59,8 @@ if __name__ == "__main__":
 
         print "!!! ODPALAMY MAIN !!!"
         print "main(" + cc_topdir + ", " + meta_topdir + ", " + git_topdir + ")"
-        #main(cc_topdir, meta_topdir, git_topdir)
-        main(cc_topdir, meta_topdir, git_topdir, pretend_stage1=True, pretend_stage2=True)
+        main(cc_topdir, meta_topdir, git_topdir)
+        #main(cc_topdir, meta_topdir, git_topdir, pretend_stage1=True, pretend_stage2=True)
         #run_command("ls " + cc_topdir)
         print "!!! ZAKONCZONE MAIN !!!"
         

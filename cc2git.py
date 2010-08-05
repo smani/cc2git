@@ -7,8 +7,6 @@ Usage: cc2git input_dir metadata_output_topdir git_output_dir exclude_regexp
 
 
 """
-#TODO: stage2: linki i puste katalogi trzeba przekopiowac z drzewa meta do drzewa git. (dla pustych katalogow tworzyc .gitignore)
-#TODO: albo poprostu skopiowac cale meta jako pierwsza wersje gita (czyli w meta musimy miec juz puste katalogi(.gitignore) i linki
 #TODO: uzywac w yamlu "---" zeby moc czytac, pisac strumieniowo;
 
 import os
@@ -286,8 +284,10 @@ def stage2(cc_topdir, meta_topdir, git_topdir, use_global_db_value=True, dbfilen
 
 
 def main(cc_topdir, meta_topdir, git_topdir, exclude="a^", pretend_stage1=False, pretend_stage2=False): #FIXME: better default exclude (to match nothing)
+    global db
     stage1(cc_topdir, meta_topdir, exclude, clearcasepretend=pretend_stage1) #creates metadata tree using clearcase
     stage2(cc_topdir, meta_topdir, git_topdir, clearcasepretend=pretend_stage2) #creates git repo using metadata tree and clearcase
+    db = []
 
 if __name__ == '__main__':
 
