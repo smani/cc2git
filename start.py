@@ -20,26 +20,13 @@ CREATE_VIEW_CMD = "sudo " + VCT + " mkview --prj Porta_BAS_052_Maint --cnf STAND
 HOME_DIR = "/home/kesicki_sl"
 RESULTS_DIR = HOME_DIR + "/cc2git_results"
 TESTS = [ #TODO; utrzymujemy to mniejwiecej wedlug rozmiaru od najmniejszego
-    ("31", "common_software/sw/develop/source/siemens/interfaces"),
-    ("32", "common_software/sw/develop/makefiles"),
-    ("33", "porta/sw/develop/source/siemens/applications/cma/digitmap"),
-    ("34", "porta/sw/develop/source/siemens/applications/cma/doc"),
-    ("35", "porta/sw/develop/makefiles"),
-    ("36", "porta/sw/develop/profiles"),
-    ("37", "porta/sw/develop/source/siemens/applications/cma/callcontrol"),
-    ("38", "porta/sw/develop/source/siemens/applications/cma/b2bua"),
-    ("39", "porta/sw/develop/source/siemens/applications/cma/endpoint"),
-    ("40", "porta/sw/develop/source/siemens/applications/cma/resourcemanagement"),
-    ("41", "common_software/sw/develop/source/siemens/applications"),
-    ("42", "porta/sw/develop/source/siemens/applications/cma"),
-    ("43", "porta/sw/develop/source/siemens/applications/scm_app"),
-    ("44", "porta/sw/webcommon"),
-    ("45", "porta/sw/develop/source/siemens/applications/html"),
-    ("46", "common_software/sw/develop/source/siemens/libraries"),
-    ("47", "porta/sw/develop/source/siemens/applications"),
-    ("48", "porta/sw/develop/source/siemens/libraries"),
-    ("49", "common_software/sw/develop/source/opensource/components"),
-    ("50", "common_software/sw/develop/source/allegro"),
+    ("danube_tc", "danube_tc"), #87MB
+    ("components", "components"), #103MB
+    ("common_software", "common_software"), #130MB
+    ("porta_kernel_2_4_31", "porta_kernel_2_4_31"), #194MB
+    ("porta_kernel", "porta_kernel"), #206MB
+    ("porta_tools", "porta_tools"), #449MB
+    ("porta", "porta"), #882MB
 ]
 
 
